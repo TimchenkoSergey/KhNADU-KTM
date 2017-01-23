@@ -5,16 +5,15 @@
     "use strict";
 
     $(document).ready(function(){
-        const owl = $('.owl-carousel');
-        owl.owlCarousel({
+        $('.educators-carousel').owlCarousel({
             items: 4,
             loop: true,
             autoplay: true,
-            autoplayTimeout: 2000,
-            smartSpeed: 1500,
-            info: true,
+            autoplayTimeout: 5000,
+            autoplaySpeed: 2000,
+            smartSpeed: 2000,
             dots: true,
-            dotsSpeed: 500,
+            dotsSpeed: 1000,
         });
     });
 })();
