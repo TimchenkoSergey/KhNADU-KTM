@@ -1,0 +1,32 @@
+.main-head-banner {
+	height: 180px;
+	background: url(../img/slide2.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	&__fade {
+		height: 180px;
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.7);
+		z-index: 2;
+	}
+
+	&__header {
+		margin-top: 0;
+		font-family: $exo;
+	    font-size: 44px;
+	    color: #fff;
+	    text-align: center;
+	    position: relative;
+	    z-index: 3;
+	}
+}

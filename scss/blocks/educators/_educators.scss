@@ -1,0 +1,144 @@
+.educators {
+  display: block;
+  position: relative;
+  padding: 100px 0;
+  padding-top: 40px;
+
+  @media (max-width: 1201px) {
+      width: 100%;
+  }
+
+  //Заголов секции
+  &__title {
+    padding-bottom: 30px;
+    color: $blue;
+    text-align: center;
+
+    font-size: $header-size;
+    font-family: $exo;
+  }
+
+  //Логотип под заголовком
+  &__logo {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: $header-size/2;
+    font-family: FontAwesome;
+
+  }
+
+  //Обертка фото для задания ховер эффектов
+  &__imgWrapper {
+    position: relative;
+    display: block;
+    height: 260px;
+    max-height: 75%;
+    width: 100%;
+  }
+
+  //Само фото
+  &__img {
+    height: 100%;
+    width: 100%;
+  }
+
+  //Описание одного элемента(карточка одного человека) в слайдере
+  &__item {
+    width: 230px;
+    position: relative;
+    height: 335px;
+    margin: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #f4f4f4;
+    //Блок описания карточки
+    .educators__caption {
+      max-height: 65%;
+      min-height: 50%;
+      width: 100%;
+      position: relative;
+      text-align: center;
+      background-color: #f4f4f4;
+    }
+  }
+
+  //Имя человека в описании
+  &__name {
+    font-family: $header-font-family;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 20px 0 0 0;
+    margin: 0;
+  }
+
+  //Должность в описании
+  &__position {
+    color: $blue-white;
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  //Информация видимая при наведении
+  &__info {
+    color: $grey-black;
+    font-family: $text-font-family;
+    padding: 0 5px 5px 5px;
+  }
+
+  //Цитата в скрытой навигации
+  &__quote {
+    padding: 15px 0;
+    color: $grey-white;
+  }
+}
+
+.educators__item:after {
+  display: block;
+  position: absolute;
+  height: 80px;
+  width: 100%;
+}
+.educators__item:hover {
+
+  .educators__img--hoverImgBg {
+    opacity: 0.5;
+  }
+  .educators__caption {
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-bottom: 2px solid $blue-white;
+  }
+}
+
+//Класс определяет div перекрывающий фото при наведении
+.educators__img--hoverImgBg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0;
+  transition: 0.3s;
+  display: block;
+}
+
+//Кнопки социальных сетей
+.educators-socialButton {
+  padding: 5px 0;
+  font-size: 15px;
+  &__item {
+    padding: 5px;
+  }
+
+  & a {
+    text-decoration: none;
+  }
+}
+
+.educators-slider {
+  margin-top: 30px;
+}

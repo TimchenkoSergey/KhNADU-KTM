@@ -1,0 +1,57 @@
+.main-footer-banner {
+	height: 180px;
+	background: url(../img/slide3.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	&__fade {
+		height: 180px;
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.7);
+		z-index: 2;
+	}
+
+	&__header {
+		margin-top: 0;
+		font-family: $exo;
+	    font-size: 44px;
+	    color: #fff;
+	    text-align: center;
+	    position: relative;
+	    z-index: 3;
+	}
+
+	&__link {
+		margin-top: 20px;
+		display: flex;
+		text-transform: uppercase;
+		color: #fff;
+		background: #3f9ae1;
+		font-size: 11px;
+		letter-spacing: 1px;
+		padding: 10px;
+		border-radius: 20px;
+		font-weight: bold;
+		transition: 0.3s;
+		padding-left: 20px;
+		padding-right: 20px;
+		position: relative;
+		z-index: 3;
+
+		&:hover {
+			opacity: 0.7;
+			text-decoration: none;
+			color: #fff;
+		}
+	}
+}

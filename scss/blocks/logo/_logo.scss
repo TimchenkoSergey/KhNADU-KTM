@@ -1,4 +1,8 @@
 .logo {
+
+	@media (max-width: 991px) {
+		text-align: center;
+	}
 	
 	&__image {
 		padding-top: 10px;
@@ -9,15 +13,9 @@
 		font-family: "Roboto", sans-serif;
 		font-size: 45px;
 
-		&:before {
-			content: "";
-			width: 118px;
-			height: 4px;
-			position: absolute;
-			top: 40px;
-			left: 0;
-
-			background-color: #3f9ae1;
+		@media (max-width: 991px) {
+			padding-top: 0;
+			margin-bottom: 0;
 		}
 	}
 
