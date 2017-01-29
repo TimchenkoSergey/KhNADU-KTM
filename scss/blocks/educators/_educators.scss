@@ -8,6 +8,13 @@
       width: 100%;
   }
 
+  &--bg {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background: #f4f4f4;
+  }
+
   //Заголов секции
   &__title {
     padding-bottom: 30px;
@@ -41,6 +48,7 @@
   &__img {
     height: 100%;
     width: 100%;
+    transform-style: flat !important;
   }
 
   //Описание одного элемента(карточка одного человека) в слайдере
@@ -91,6 +99,10 @@
     padding: 15px 0;
     color: $grey-white;
   }
+
+  &__caption--white {
+    background-color: #fff !important;
+  }
 }
 
 .educators__item:after {
@@ -122,7 +134,6 @@
   right: 0;
   background-color: black;
   opacity: 0;
-  transition: 0.3s;
   display: block;
 }
 

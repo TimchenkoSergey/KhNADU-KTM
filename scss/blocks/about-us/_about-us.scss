@@ -1,0 +1,76 @@
+.about-us {
+	padding-top: 50px;
+
+	&__main-picture {
+		width: 100%;
+		height: auto;
+	}
+
+	&__header {
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-family: $exo;
+	    font-size: 40px;
+	    color: $blue;
+	    text-align: left;
+	}
+
+	&__col-inform {
+		padding-left: 20px;
+		padding-right: 50px;
+	}
+
+	&__text {
+		margin-bottom: 20px;
+		font-family: $os;
+		font-size: 14px;
+		color: #757575;
+	}
+
+	&__fetures-list {
+		list-style: none;
+		padding-left: 10px;
+		margin-bottom: 0;
+	}
+
+	&__row--flex {
+		display: flex;
+	}
+
+	&__list-item {
+		padding-top: 10px;
+   		padding-bottom: 10px;
+		border-bottom: 1px solid #f4f4f4;
+		font-family: $os;
+		font-size: 14px;
+		color: #757575;
+
+		&:first-child {
+			border-top: 1px solid #f4f4f4;
+		}
+	}
+
+	&__icon {
+		font-size: 10px;
+		color: $blue;
+		margin-right: 5px;
+	}
+
+	&__header--center {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+
+	&__col--padding {
+		display: flex;
+		align-items: center;
+		padding-right: 40px;
+		padding-left: 20px;
+	}
+
+	&__science {
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+}
