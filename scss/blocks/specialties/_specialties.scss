@@ -1,0 +1,110 @@
+.specialties {
+	padding-top: 50px;
+	padding-bottom: 110px;
+	background-color: #f4f4f4;
+	text-align: center;
+	
+	&__container {
+		padding-left: 0;
+		padding-right: 0;
+		width: 100% !important;
+	}
+
+	&__title {
+		padding-bottom: 30px;
+	    color: $blue;
+	    text-align: center;
+	    font-size: 44px;
+	    font-family: $exo;
+
+	    @media (max-width: 350px) {
+			font-size: 40px;
+		}
+	}
+
+	&__item {
+		max-width: 320px;
+		width: 100%;
+		padding: 35px;
+		background: #fff;
+		float: left;
+		margin-right: 30px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		@media (max-width: 1055px) {
+			width: 300px;
+		}
+
+		@media (max-width: 995px) {
+			margin-right: 0;
+			width: 320px;
+			float: none;
+			margin-bottom: 20px;
+		}
+
+		@media (max-width: 350px) {
+			width: 310px;
+		}
+	}
+
+	&__row {
+		margin-top: 40px;
+		display: inline-block;
+		text-align-last: auto;
+	}
+
+	&__specialtie {
+		font-size: 13px;
+		text-transform: uppercase;
+		font-family: $os;
+		color: $blue;
+		font-weight: bold;
+		text-align: left;
+	}
+
+	&__header {
+		font-size: 20px;
+		font-family: $os;
+		font-weight: bold;
+		text-align: left;
+		margin-bottom: 20px;
+	}
+
+	&__link {
+		color: #303133;
+		transition: 0.3s;
+
+		&:hover {
+			color: $blue;
+			text-decoration: none;
+		}
+	}
+
+	&__text {
+		font-size: 15px;
+		font-family: $os;
+		text-align: left;
+		color: #8D8D8D;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #dedede;
+		margin-bottom: 30px;
+	}
+
+	&__information {
+		font-size: 13px;
+		font-weight: bold;
+		color: #303133;
+		text-align: left;
+		margin-bottom: 2px;
+		font-family: $os;
+	}
+
+	&__icon {
+		padding-right: 10px;
+		font-size: 14px;
+		color: $blue;
+	}
+}

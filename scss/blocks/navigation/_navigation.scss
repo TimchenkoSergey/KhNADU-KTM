@@ -1,0 +1,135 @@
+.navigation {
+	position: relative;
+	z-index: 5;
+
+	@media (max-width: 767px) {
+		padding-top: 40px;
+		max-width: 284px;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: -284px;
+		
+		background: #263238;
+		
+		transition: 0.3s;  
+	}
+
+	&--open {
+		padding-left: 0;
+		padding-right: 0;
+		left: 0;
+		z-index: 5;
+	}
+
+	&__hamburger {
+		display: none;
+		font-size: 40px;
+	    padding: 10px;
+		padding-left: 30px;
+	    padding-right: 30px;
+	    width: 95px;
+	    cursor: pointer;
+	    float: right;
+	    border-radius: 5px;
+	    color: $blue;
+	    transition: 0.3s;
+
+		&:hover {
+			color: $dblue;
+		}
+
+		@media (max-width: 767px) {
+			display: block;
+		}
+	}
+
+	@media (max-width: 600px) {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	@media (max-width: 400px) {
+		max-width: 255px;
+	}
+
+	@media (max-width: 370px) {
+		max-width: 225px;
+	}
+
+	&__icon {
+		display: none;
+
+		@media (max-width: 767px) {
+			display: inline-block;
+			width: 25px;
+			margin-right: 20px;
+			font-size: 20px;
+			color: #fff;
+		}
+	}
+
+	&__list {
+		padding-left: 0;
+		padding-top: 10px;
+		margin-bottom: 0;
+
+		list-style: none;
+
+		@media (max-width: 991px) {
+			padding-top: 0;
+		}
+	}
+
+	&__item {
+		width: 20%;
+		position: relative;
+		float: left;
+
+		text-align: center;
+
+		@media (max-width: 767px) {
+			display: block;
+			float: none;
+			width: 100%;
+			cursor: pointer; 
+		}
+	}
+
+	&__link {
+		width: 100%;
+		display: block;
+		padding-top: 30px;
+		padding-bottom: 35px;
+		position: relative;
+
+		color: #757575;
+		text-transform: uppercase;
+		font-family: $os;
+		font-size: 12px;
+		font-weight: 600;
+
+		transition: 0.5s;
+
+		&:hover {
+			color: $blue;
+			text-decoration: none;
+		}
+
+		@media (max-width: 991px) {
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+		@media (max-width: 767px) {
+			padding-left: 25px;
+			text-align: left;
+			color: #fff;
+
+			&:hover {
+				background: #37474F;
+			}
+		}
+	}
+}

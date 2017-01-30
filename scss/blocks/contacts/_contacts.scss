@@ -1,0 +1,39 @@
+.contacts {
+	padding-top: 90px;
+    padding-bottom: 90px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+	&__col {
+		width: 35%;
+		margin-left: 15%;
+		float: left;
+
+		@media (max-width: 991px) {
+			margin-left: 5%;
+			width: 45%;
+		}
+
+		@media (max-width: 680px) {
+			width: 90%;
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+	}
+
+	&__col-6 {
+		width: 35%;
+		float: left;
+
+		@media (max-width: 991px) {
+			width: 45%;
+		}
+
+		@media (max-width: 680px) {
+			width: 90%;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: 30px;
+		}
+	}
+}
