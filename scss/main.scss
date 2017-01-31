@@ -1,0 +1,29 @@
+@import "variables";
+
+//imports modules
+@import "blocks/page/_page.scss";
+@import "blocks/header/_header.scss";
+@import "blocks/logo/_logo.scss";
+@import "blocks/navigation/_navigation.scss";
+@import "blocks/content/_content.scss";
+@import "blocks/slider/_slider.scss";
+@import "blocks/features/_features.scss";
+@import "blocks/statistics/_statistics.scss";
+@import "blocks/social-icons/_social-icons.scss";
+@import "blocks/dropdown-menu/_dropdown-menu.scss";
+@import "blocks/footer/_footer.scss";
+@import "blocks/graduates/_graduates.scss";
+@import "blocks/hate-icon/_hate-icon.scss";
+@import "blocks/specialties/_specialties.scss";
+@import "blocks/news/_news.scss";
+@import "blocks/main-head-banner/_main-head-banner.scss";
+@import "blocks/contacts/_contacts.scss";
+@import "blocks/map/_map.scss";
+@import "blocks/main-footer-banner/_main-footer-banner.scss";
+
+//Anatoly
+@import "blocks/educators/_educators.scss";
+@import "blocks/educators-social-buttons/_educators-social-buttons";
+@import "blocks/article/_article.scss";
+@import "blocks/article-social-buttons/_article-social-buttons";
+@import "blocks/article-owl-carousel/_article-owl-carousel.scss";

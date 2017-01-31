@@ -1,0 +1,25 @@
+.logo {
+
+	@media (max-width: 991px) {
+		text-align: center;
+	}
+	
+	&__image {
+		padding-top: 10px;
+		position: relative;
+
+		color: #757575;
+		text-transform: uppercase;
+		font-family: "Roboto", sans-serif;
+		font-size: 45px;
+
+		@media (max-width: 991px) {
+			padding-top: 0;
+			margin-bottom: 0;
+		}
+	}
+
+	&__blue {
+		color: #3f9ae1;
+	}
+}

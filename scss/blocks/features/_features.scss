@@ -1,0 +1,91 @@
+.features {
+    margin-top: 40px;
+    margin-bottom: 70px;
+
+    &__header {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: $blue;
+        text-align: center;
+        font-size: 44px;
+        font-family: $exo;
+    }
+
+    &__row {
+        width: 1020px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+
+        @media (max-width: 1060px) {
+            width: 960px;
+        }
+
+        @media (max-width: 991px) {
+            width: 310px;
+        }
+    }
+
+    &__svg {
+        fill: #fff;
+        width: 80px;
+    }
+
+    &__icon {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    &__item {
+        padding: 40px;
+        width: 340px;
+        float: left;
+
+        @media (max-width: 1060px) {
+            width: 310px;
+        }
+
+        @media (max-width: 991px) {
+            float: none;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__item--first {
+        background: #91c8f2;
+    }
+    
+    &__item--second {
+        background: #5ea6dd;
+    }
+
+    &__item--third {
+        background: #3f9ae1;
+    }
+
+    &__head {
+        font-family: $exo;
+        padding-bottom: 10px;
+        color: #fff;
+        font-size: 30px;
+        height: 100px;
+        box-sizing: content-box;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #fff;
+        text-align: center;
+    }
+
+    &__svg--w {
+        width: 90px;
+    }
+
+    &__icon--pb {
+        padding-bottom: 0;
+    }
+
+    &__text {
+        font-family: $os;
+        font-size: 12px;
+        color: #fff;
+    }
+}
