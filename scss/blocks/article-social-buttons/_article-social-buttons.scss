@@ -1,0 +1,11 @@
+.article-social-buttons {
+  color: $dgrey;
+  font-size: $tz;
+  padding: 30px 0;
+  &__link {
+    text-decoration: none !important;
+  }
+  &__item {
+    padding: 0 10px;
+  }
+}
