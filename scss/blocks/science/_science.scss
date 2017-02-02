@@ -5,8 +5,11 @@
   &__link {
     color: $dgrey;
     text-decoration: none;
+    transition: 0.3s;
+
     &:hover {
       color: $blue;
+      text-decoration: none;
     }
   }
 
@@ -32,6 +35,10 @@
     font-size: 40px;
     color: $blue;
     text-align: center;
+  }
+
+  &__header--pt {
+    padding-top: 40px;
   }
 
   &__col-inform {
