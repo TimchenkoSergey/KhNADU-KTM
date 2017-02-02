@@ -3,7 +3,13 @@
 	@media (max-width: 991px) {
 		text-align: center;
 	}
-	
+	&__link {
+		text-transform: none;
+		color: $dgrey;
+		&:hover {
+			text-transform: none;
+		}
+	}
 	&__image {
 		padding-top: 10px;
 		position: relative;
