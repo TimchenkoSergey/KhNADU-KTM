@@ -1,0 +1,35 @@
+.science-article {
+  text-align: center;
+  position: relative;
+  &__img {
+    padding: 70px 0 30px 0;
+    width: 100%;
+    max-height: 780px;
+    max-width: 750px;
+  }
+
+  &__title {
+    color: $dgrey;
+    font-size: $hz;
+    font-family: $exo;
+    font-weight: $header-font-weight;
+  }
+
+  &__category {
+    color: $blue;
+    font-size: $hz/2;
+    font-family: $os;
+  }
+
+  &__text {
+    //text-align: justify;
+    color: $dgrey;
+    font-size: $tz;
+    font-family: $os;
+  }
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: $blue-white !important;
+}

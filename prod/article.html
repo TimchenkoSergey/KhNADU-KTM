@@ -10,15 +10,16 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=cyrillic" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Exo+2:400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="../libs/fa/font-awesome.min.css">
-    <link rel="stylesheet" href="../libs/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="../libs/owl/owl.theme.default.min.css">
-    <link rel="stylesheet" href="../libs/swipebox-master/src/css/swipebox.min.css">
+	<link rel="stylesheet" href="../libs/swipe/src/css/swipebox.min.css">
+	<link rel="stylesheet" href="../libs/owl/owl.carousel.min.css">
+	<link rel="stylesheet" href="../libs/owl/owl.theme.default.min.css">
 	<link href="css/main.min.css" rel="stylesheet" type="text/css">
 
 	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
     <style>
     	/*Эти стили потом пойдут либо через js
     	 * либо их нужно будет раскидать по 
@@ -214,8 +215,8 @@
 		</section>
 
 		<section class="article">
-            <div class="container">
-                <div class="row">
+            <div class="article__container container">
+                <div class="article__row row">
                     <img src="img/article1.jpg" alt="Article img" class="article__img">
                     <h2 class = "article__title">Event Title</h2>
                     <p class = "article__category">Education, inspiration</p>
@@ -253,33 +254,47 @@
             <div class="article-owl-carousel owl-carousel owl-theme">
                 <div class="article-owl-carousel__item">
                     <a href="img/a1-big.jpg" class="article-owl-carousel__link swipebox">
-                            <img class="article-owl-carousel__img" src="img/a1.jpg" alt="">
+                           <img class="article-owl-carousel__img" src="img/a1.jpg" alt="">
                     </a>
                 </div>
                 <div class="article-owl-carousel__item">
-                    <a href="img/a4-big.jpg" class="article-owl-carousel__link swipebox"><img class="article-owl-carousel__img" src="img/a4.jpg" alt=""></a>
+                    <a href="img/a4-big.jpg" class="article-owl-carousel__link swipebox">
+                   		<img class="article-owl-carousel__img" src="img/a4.jpg" alt="">
+                    </a>
                 </div>
                 <div class="article-owl-carousel__item">
-                    <a href="img/a3-big.jpg" class="article-owl-carousel__link swipebox"><img class="article-owl-carousel__img" src="img/a3.jpg" alt=""></a>
+                    <a href="img/a3-big.jpg" class="article-owl-carousel__link swipebox">
+                    	<img class="article-owl-carousel__img" src="img/a3.jpg" alt="">
+                    </a>
                 </div>
                 <div class="article-owl-carousel__item">
-                    <a href="img/a1-big.jpg" class="article-owl-carousel__link swipebox"><img class="article-owl-carousel__img" src="img/a1.jpg" alt=""></a>
+                    <a href="img/a1-big.jpg" class="article-owl-carousel__link swipebox">
+                    	<img class="article-owl-carousel__img" src="img/a1.jpg" alt="">
+                    </a>
                 </div>
                 <div class="article-owl-carousel__item">
-                    <a href="img/a4-big.jpg" class="article-owl-carousel__link swipebox"><img class="article-owl-carousel__img" src="img/a4.jpg" alt=""></a>
+                    <a href="img/a4-big.jpg" class="article-owl-carousel__link swipebox">
+                    	<img class="article-owl-carousel__img" src="img/a4.jpg" alt="">
+                    </a>
                 </div>
                 <div class="article-owl-carousel__item">
-                    <a href="img/a3-big.jpg" class="article-owl-carousel__link swipebox"><img class="article-owl-carousel__img" src="img/a3.jpg" alt=""></a>
+                    <a href="img/a3-big.jpg" class="article-owl-carousel__link swipebox">
+                    	<img class="article-owl-carousel__img" src="img/a3.jpg" alt="">
+                    </a>
                 </div>
                 <div class="article-owl-carousel__item">
-                    <a href="img/a1-big.jpg" class="article-owl-carousel__link swipebox"><img class="article-owl-carousel__img" src="img/a1.jpg" alt=""></a>
+                    <a href="img/a1-big.jpg" class="article-owl-carousel__link swipebox">
+                    	<img class="article-owl-carousel__img" src="img/a1.jpg" alt="">
+                    </a>
                 </div>
                 <div class="article-owl-carousel__item">
-                    <a href="img/a4-big.jpg" class="article-owl-carousel__link swipebox"><img class="article-owl-carousel__img" src="img/a4.jpg" alt=""></a>
+                    <a href="img/a4-big.jpg" class="article-owl-carousel__link swipebox">
+                    	<img class="article-owl-carousel__img" src="img/a4.jpg" alt="">
+                    </a>
                 </div>
             </div>
         </section>
-		
+
 		<section class="main-footer-banner">
 			<div class="main-footer-banner__fade"></div>
 			<h2 class="main-footer-banner__header">
@@ -424,11 +439,12 @@
 			</div>
 		</div>
 	</footer><!-- footer -->
-
+	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-    <script src="../libs/owl/owl.carousel.min.js"></script>
-    <script src="../libs/swipebox-master/src/js/jquery.swipebox.min.js"></script>
+	<script src="../libs/owl/owl.carousel.min.js"></script>
+	<script src="../libs/swipe/src/js/jquery.swipebox.min.js"></script>
 	<script src="../js/init.js"></script>
+	<script src="../js/article.js"></script>
 </body>
 </html>

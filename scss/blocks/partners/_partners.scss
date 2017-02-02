@@ -1,0 +1,29 @@
+.partners {
+	margin-top: 40px;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	background: #f4f4f4;
+
+	&__header {
+		padding-bottom: 40px;
+		font-family: $exo;
+	    font-size: 40px;
+	    color: $blue;
+	    text-align: center;
+	}
+
+	&__item {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	&__img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover  span {
+  background: $blue !important; 
+}
