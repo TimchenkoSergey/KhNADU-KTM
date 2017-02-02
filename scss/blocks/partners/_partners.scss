@@ -4,6 +4,18 @@
 	padding-bottom: 60px;
 	background: #f4f4f4;
 
+	&--white {
+		background: #fff;
+	}
+
+	&__text {
+		padding-top: 10px;
+		padding-bottom: 40px;
+		font-size: 14px;
+		font-family: $os;
+		color: #757575;
+	}
+
 	&__header {
 		padding-bottom: 40px;
 		font-family: $exo;

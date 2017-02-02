@@ -3,6 +3,12 @@
 	padding-bottom: 110px;
 	background-color: #f4f4f4;
 	text-align: center;
+
+	&--white {
+		background-color: #fff;
+		padding-bottom: 40px;
+		padding-top: 30px;
+	}
 	
 	&__container {
 		padding-left: 0;
@@ -48,6 +54,10 @@
 		@media (max-width: 350px) {
 			width: 310px;
 		}
+	}
+
+	&__item--grey {
+		background: #f4f4f4;
 	}
 
 	&__row {
