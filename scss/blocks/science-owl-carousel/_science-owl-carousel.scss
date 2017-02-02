@@ -1,0 +1,13 @@
+.science-owl-carousel {
+  height: 320px;
+  margin: 20px 0;
+
+  &__item {
+    padding: 20px 0;
+  }
+
+  &__img {
+    height: 100%;
+    transform-style: flat !important;
+  }
+}
