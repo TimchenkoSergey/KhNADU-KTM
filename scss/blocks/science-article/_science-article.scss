@@ -1,6 +1,11 @@
 .science-article {
   text-align: center;
   position: relative;
+
+  &:last-child {
+    margin-bottom: 50px;
+  }
+
   &__img {
     padding: 70px 0 30px 0;
     width: 100%;
