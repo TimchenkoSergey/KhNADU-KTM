@@ -4,10 +4,45 @@
 
   &__item {
     padding: 20px 0;
+    overflow: hidden;
+  }
+
+   &__link {
+  	overflow: hidden;
+  	display: block;
+  	position: relative;
+
+  	&:hover {
+		text-decoration: none;
+
+		& .article-owl-carousel__description {
+			opacity: 1;
+		}
+	}
   }
   
   &__img {
     height: 100%;
     transform-style: flat !important;
+    transition: 0.3s;
+
+    &:hover {
+		transform: scale(1.1) !important;
+	}
   }
+
+  &__description {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 15px;
+		opacity: 0;
+		padding-left: 20px;
+		font-size: 14px;
+		color: #fff;
+		width: 100%;
+		overflow: hidden;
+		transition: 0.3s;
+		background: rgba(0, 0, 0, 0.7);
+	}
 }

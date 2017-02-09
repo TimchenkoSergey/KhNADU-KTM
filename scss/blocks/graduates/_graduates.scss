@@ -8,6 +8,7 @@
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
+	overflow: hidden;
 
 	@media (max-width: 850px) {
 		height: 450px;
@@ -140,7 +141,7 @@
 	    background: none   !important;
 	    position: absolute !important;
 	    top: 180px 		   !important;
-	    right: 0 		   !important;
+	    right: 0px 	       !important;
 
 	    @media (max-width: 650px) {
 			top: 140px !important;
@@ -160,7 +161,7 @@
 	    background: none   !important;
 	    position: absolute !important;
 	    top: 180px 		   !important;
-	    left: 0 		   !important;
+	    left: 0px 		   !important;
 
 	    @media (max-width: 650px) {
 			top: 140px !important;

@@ -1,6 +1,11 @@
 .logo {
 
+	@media (max-width: 1200px) {
+		width: 30%;
+	}
+
 	@media (max-width: 991px) {
+		width: 100%;
 		text-align: center;
 	}
 
@@ -19,7 +24,7 @@
 	&__image {
 		padding-top: 10px;
 		position: relative;
-
+		
 		color: #757575;
 		text-transform: uppercase;
 		font-family: "Roboto", sans-serif;
