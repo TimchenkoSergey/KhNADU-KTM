@@ -1,7 +1,7 @@
 (function() {
 	"use strict";
 
-	//init owl carousel for about-us page block educators
+	//init owl carousel for about-us page educators block 
 	$(function(){
         $(".educators__owl-carousel").owlCarousel({
             items: 4,
@@ -16,6 +16,7 @@
         });
     });
 
+	//init owl carousel for about-us page partners block 
     $(function(){
         $(".partners__owl-carousel").owlCarousel({
             items: 4,

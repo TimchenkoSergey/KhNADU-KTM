@@ -41,26 +41,9 @@
 		}
 	}
 
-	&__svg {
-		width: 16px;
-		height: 16px;
-		fill: #787878;
-		transition : 0.3s;
+	&__picture {
 		margin-right: 30px;
-
-		&:hover,
-		&:visited {
-			fill: $blue;
-			text-decoration: none;
-		}
-
-		@media (max-width: 550px) {
-			margin-right: 0;
-		}
-	}
-
-	&__svg--height {
-		height: 13px;
+		font-size: 15px;
 	}
 
 	&__icon--fl {
@@ -73,17 +56,18 @@
 		}
 	}
 
-	&__svg--wh {
-		width: 20px;
-		height: 20px;
-
-		@media (max-width: 550px) {
-			margin-right: 30px;
-		}
+	&__icon--text-center {
+		text-align: center;
 	}
 
 	&__text {
 		vertical-align: super;
+	}
+
+	&__picture--width {
+		width: 45px;
+		margin-right: 0;
+		font-size: 25px;
 	}
 
 	&--pl {
