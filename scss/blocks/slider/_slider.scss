@@ -15,6 +15,10 @@
 		}
 	}
 
+	&__wrap {
+		transition: 2s !important;
+	}
+
 	&__container {
 		padding-left: 185px;
 

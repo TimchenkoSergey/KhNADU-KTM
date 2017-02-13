@@ -19,28 +19,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <style>
-    	/*Эти стили потом пойдут либо через js
-    	 * либо их нужно будет раскидать по 
-    	 * файлам по бему но пока это делать лень
-    	 */
-		.s1 {
-			background-image: url("../img/slide1.jpg");
-		}
-		 .s2 {
-			background-image: url("../img/slide2.jpg");
-		}
-		.s3 {
-			background-image: url("../img/slide3.jpg");
-		}
-		.carousel-inner>.item {
-			transition: 2s !important;
-		}
-		.dropdown:hover .dropdown-menu { 
-		    display: block; 
-		} 
-    </style>
 </head>
 <body class="page">
 	
@@ -166,7 +144,7 @@
 			<div class="slider__carousel carousel slide carousel-fade" id="carousel" data-ride="carousel">
 				<div class="slider__wraper carousel-inner" role="listbox">
 					<div class="slider__wrap item active">
-						<div class="slider__slide s1">
+						<div class="slider__slide" style="background-image: url('../img/slide1.jpg');">
 							<div class="slider__container container">
 								<div class="slider__description">
 									<h1 class="slider__header">Feed Your Knowledge</h1>
@@ -179,7 +157,7 @@
 						</div>
 					</div>
 				    <div class="slider__wrap item">
-						<div class="slider__slide s2">
+						<div class="slider__slide" style="background-image: url('../img/slide2.jpg');">
 							<div class="slider__container container">
 								<div class="slider__description">
 									<h1 class="slider__header">Feed Your Knowledge</h1>
@@ -192,7 +170,7 @@
 						</div>
 					</div>	
 					<div class="slider__wrap item">
-						<div class="slider__slide s3">
+						<div class="slider__slide" style="background-image: url('../img/slide3.jpg');">
 							<div class="slider__container container">
 								<div class="slider__description">
 									<h1 class="slider__header">Feed Your Knowledge</h1>
