@@ -1,6 +1,7 @@
 (function() {
 	"use strict";
 
+    //init owl carousel for enrolle page partners__owl-carousel block 
     $(function(){
         $(".partners__owl-carousel").owlCarousel({
             items: 4,
@@ -15,7 +16,8 @@
         });
     });
 
-    $(function($) {
-        $( ".swipebox" ).swipebox();
+    //init swipe box for gallery
+    $(function() {
+        $(".swipebox").swipebox();
     });
 })();

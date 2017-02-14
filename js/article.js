@@ -1,6 +1,7 @@
 (function() {
 	"use strict";
 
+    //init owl carousel for article page article-owl-carousel block 
 	$(function(){
         $(".article-owl-carousel").owlCarousel({
             items: 4,
@@ -15,7 +16,8 @@
         });
     });
 
-    $(function($) {
-        $( ".swipebox" ).swipebox();
+    //init swipe box for gallery
+    $(function() {
+        $(".swipebox").swipebox();
     });
 })();

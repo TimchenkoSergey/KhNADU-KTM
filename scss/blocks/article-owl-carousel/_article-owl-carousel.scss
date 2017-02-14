@@ -1,37 +1,41 @@
 .article-owl-carousel {
-  height: 320px;
-  margin: 50px 0;
+	height: 320px;
+	margin: 50px 0;
 
-  &__item {
-    padding: 20px 0;
-    overflow: hidden;
-  }
+	&--mt {
+		margin-top: 0;
+	}
 
-   &__link {
-  	overflow: hidden;
-  	display: block;
-  	position: relative;
+	&__item {
+		padding: 20px 0;
+		overflow: hidden;
+	}
 
-  	&:hover {
-		text-decoration: none;
+	&__link {
+		overflow: hidden;
+		display: block;
+		position: relative;
 
-		& .article-owl-carousel__description {
-			opacity: 1;
+		&:hover {
+			text-decoration: none;
+
+			& .article-owl-carousel__description {
+				opacity: 1;
+			}
 		}
 	}
-  }
-  
-  &__img {
-    height: 100%;
-    transform-style: flat !important;
-    transition: 0.3s;
+	
+	&__img {
+		height: 100%;
+		transform-style: flat !important;
+		transition: 0.3s;
 
-    &:hover {
-		transform: scale(1.1) !important;
+		&:hover {
+			transform: scale(1.1) !important;
+		}
 	}
-  }
 
-  &__description {
+	&__description {
 		position: absolute;
 		bottom: 0;
 		left: 0;

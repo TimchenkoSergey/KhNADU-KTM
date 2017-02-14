@@ -1,8 +1,9 @@
 (function() {
     "use strict";
 
+    //init owl carousel for science page article-owl-carousel block 
     $(function(){
-        $(".science-owl-carousel").owlCarousel({
+        $(".article-owl-carousel").owlCarousel({
             items: 4,
             loop: true,
             dots: true,
@@ -15,7 +16,8 @@
         });
     });
 
-    $(function($) {
-        $( ".swipebox" ).swipebox();
+    //init swipe box for gallery
+    $(function() {
+        $(".swipebox").swipebox();
     });
 })();
