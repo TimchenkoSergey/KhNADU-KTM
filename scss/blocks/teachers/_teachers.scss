@@ -1,5 +1,5 @@
 .teachers {
-  color: $grey-black;
+  color: $dgrey;
   
   &__container {
     @media (max-width: 1201px) {
@@ -58,9 +58,9 @@
   &__header {
     margin: 0;
     padding-bottom: 30px;
-    font-size: $header-size;
+    font-size: $hz;
     font-weight: 600;
-    font-family: $header-font-family;
+    font-family: $exo;
     color: $blue;
 
     @media (max-width: 991px) {
@@ -76,11 +76,11 @@
   &__names-header {
     font-size: $hz;
     font-weight: 600;
-    color: $grey-black;
+    color: $dgrey;
   }
 
   &__about {
-    color: $grey-white;
+    color: $grey;
   }
 
   &__social-buttons {
@@ -101,11 +101,11 @@
   &__data-header {
     font-size: 16px;
     font-weight: 600;
-    color: $grey-black;
+    color: $dgrey;
   }
 
   &__data-information {
-      color: $grey-white;
+      color: $grey;
       margin-left: 30px;
   }
 
@@ -118,7 +118,7 @@
 
   &__greeting {
     margin: 0;
-    color: $grey-black;
+    color: $dgrey;
     padding-bottom: 30px;
   }
 
@@ -158,7 +158,7 @@
   &__header4 {
     font-size: 18px;
     font-weight: 600;
-    color: $grey-black;
+    color: $dgrey;
   }
 
   &__paragraph {
@@ -184,7 +184,7 @@
     margin: 0;
     font-size: 16px;
     font-weight: 300;
-    color: $grey-black;
+    color: $dgrey;
     margin-left: 115px;
     text-align: right;
     font-style: italic;
@@ -200,7 +200,7 @@
     padding: 0 20px 25px 0;
 
     &:hover {
-      color: #23527c;
+      color: $dblue;
       text-decoration: none;
     }
   }

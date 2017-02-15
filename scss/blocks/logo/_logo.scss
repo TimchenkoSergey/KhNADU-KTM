@@ -13,11 +13,23 @@
 		text-transform: none;
 		text-decoration: none;
 		color: $dgrey;
-
+        transition: all .5s;
 		&:hover {
 			text-transform: none;
 			text-decoration: none;
 			color: $dgrey;
+		}
+		&:visited {
+			color: $dgrey;
+			text-decoration: none;
+		}
+		&:visited:hover {
+			color: $blue;
+			text-decoration: none;
+		}
+		&:active {
+			color: $blue;
+			text-decoration: none;
 		}
 	}
 	
@@ -25,7 +37,7 @@
 		padding-top: 10px;
 		position: relative;
 		
-		color: #757575;
+		color: $dgrey;
 		text-transform: uppercase;
 		font-family: "Roboto", sans-serif;
 		font-size: 45px;
@@ -37,6 +49,6 @@
 	}
 
 	&__blue {
-		color: #3f9ae1;
+		color: $blue;
 	}
 }

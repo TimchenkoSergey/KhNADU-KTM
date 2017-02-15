@@ -13,7 +13,7 @@
         color: $dgrey;
         font-size: $hz;
         font-family: $exo;
-        font-weight: $header-font-weight;
+        font-weight: $hw;
     }
 
     &__category {
@@ -30,14 +30,27 @@
 
     &__link {
         color: $dgrey;
-
-       &:hover {
-          color: $dgrey;
-       } 
+          transition: all .5s;
+      &:hover {
+        color: $blue;
+        text-decoration: none;
+      }
+      &:visited {
+        color: $dgrey;
+        text-decoration: none;
+      }
+      &:visited:hover {
+        color: $blue;
+        text-decoration: none;
+      }
+      &:active {
+        color: $blue;
+        text-decoration: none;
+      }
     }
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: $blue-white !important; 
+  background: $blue !important;
 }

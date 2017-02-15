@@ -1,6 +1,6 @@
 //fonts
-$os    : "Open Sans", sans-serif;
-$exo   : "Exo 2",     sans-serif;
+$os    : "Open Sans", sans-serif; //text
+$exo   : "Exo 2",     sans-serif; //header
 
 //colors
 $blue  : #3f9ae1;
@@ -12,11 +12,4 @@ $dgrey : #757575;
 $hz    : 44px;//headers size
 $tz    : 14px;//text size
 
-$header-size: 44px;
-$grey-white: #cdcdcd;
-$grey-black: #757575;
-$blue-white: #3f9ae1;
-$blue-black: #1c4464;
-$text-font-family:'Open Sans', sans-serif;
-$header-font-family: 'Exo 2', sans-serif;
-$header-font-weight: 600;
+$hw: 600; //header text weight

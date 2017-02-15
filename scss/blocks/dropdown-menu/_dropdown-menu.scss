@@ -26,5 +26,17 @@
 	    	background: #fff !important;
 			color: $blue !important;
 	    }
+		&:visited {
+			background: #fff !important;
+			color: $dgrey !important;;
+		}
+		&:visited:hover {
+			background: #fff !important;
+			color: $blue !important;
+		}
+		&:active {
+			background: #fff !important;
+			color: $blue !important;
+		}
 	}
 }

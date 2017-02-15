@@ -2,12 +2,24 @@
 	float: right;
 
 	&__link {
-		color: #757575;
+		color: $dgrey;
 		transition: 0.3s;
 
 		&:hover {
 			color: $blue;
 			text-decoration: none
+		}
+		&:visited {
+			color: $dgrey;
+			text-decoration: none;
+		}
+		&:visited:hover {
+			color: $blue;
+			text-decoration: none;
+		}
+		&:active {
+			color: $blue;
+			text-decoration: none;
 		}
 	}
 

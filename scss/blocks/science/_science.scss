@@ -15,6 +15,18 @@
           color: $blue;
           text-decoration: none;
         }
+        &:visited {
+            color: $dgrey;
+            text-decoration: none;
+        }
+        &:visited:hover {
+            color: $blue;
+            text-decoration: none;
+        }
+        &:active {
+            color: $blue;
+            text-decoration: none;
+        }
     }
 
     @media (max-width: 1201px) {
@@ -59,7 +71,7 @@
         margin: 20px 10px;
         font-family: $os;
         font-size: 14px;
-        color: #757575;
+        color: $dgrey;
         padding-top: 20px;
     }
 

@@ -112,7 +112,7 @@
 		padding-bottom: 35px;
 		position: relative;
 
-		color: #757575;
+		color: $dgrey;
 		text-transform: uppercase;
 		font-family: $os;
 		font-size: 12px;
@@ -121,6 +121,18 @@
 		transition: 0.5s;
 
 		&:hover {
+			color: $blue;
+			text-decoration: none;
+		}
+		&:visited {
+			color: $dgrey;
+			text-decoration: none;
+		}
+        &:visited:hover {
+			color: $blue;
+			text-decoration: none;
+		}
+		&:active {
 			color: $blue;
 			text-decoration: none;
 		}

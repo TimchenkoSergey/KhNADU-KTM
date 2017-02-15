@@ -34,7 +34,7 @@
 		margin-bottom: 20px;
 		font-family: $os;
 		font-size: 14px;
-		color: #757575;
+		color: $dgrey;
 	}
 
 	&__fetures-list {
@@ -57,7 +57,7 @@
 		border-bottom: 1px solid #f4f4f4;
 		font-family: $os;
 		font-size: 14px;
-		color: #757575;
+		color: $dgrey;
 
 		&:first-child {
 			border-top: 1px solid #f4f4f4;
