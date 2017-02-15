@@ -38,6 +38,8 @@
     });
 
 	$(function(){
-        new WOW().init();
+		if ($(window).width() >= 1200) {
+			new WOW().init();
+		}
     });
 })();

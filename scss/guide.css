@@ -1,0 +1,73 @@
+/* styles list guide */
+.some-class {
+	/* display styles */
+	/* 
+	* if this psevdo after or before on first line 
+	* property content: "";
+	*/
+	display:;
+	max-width:;
+	min-width:;
+	width:;
+	max-height:;
+	min-height:;
+	height:;
+	margin:;
+	margin-top:;
+	margin-bottom:;
+	margin-left:;
+	margin-right:;
+	padding:;
+	padding-top:;
+	padding-bottom:;
+	padding-left:;
+	padding-right:;
+	position:;
+	top:;
+	bottom:;
+	left:;
+	right:;
+	z-index:;
+	float:;
+	clear:;
+	/* ... flexbox and other display styles */
+
+	/* border styles */
+	border:;
+	border-top:;
+	border-bottom:;
+	border-left:;
+	border-right:;
+	border-color:;
+	border-radius:;
+	/* ... other border styles */
+
+	/* background styles */
+	background:;
+	background-color:;
+	background-image:;
+	background-position:;
+	background-size:;
+	/* ... */
+
+	/* text and font styles */
+	color:;
+	font-family:;
+	font-size:;
+	font-weight:;
+	/* ... */
+	text-align:;
+	text-transform:;
+	text-decoration:;
+	text-shadow:;
+	/* ... */
+
+	/* css3 properties */
+	opacity:;
+	transition:;
+	transform:;
+	box-shadow:;
+	box-sizing:;
+	cursor:;
+	/* ... other styles */
+}
