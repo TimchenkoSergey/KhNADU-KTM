@@ -1,14 +1,16 @@
 .educators-social-buttons {
   padding: 5px 0;
+
   font-size: 15px;
   &__item {
     padding: 5px;
   }
   &__link {
     text-decoration: none;
+
     transition: all .5s;
     &:hover {
-      color: $dgrey;
+      color: $blue;
       text-decoration: none;
     }
     &:visited {
@@ -20,7 +22,7 @@
       text-decoration: none;
     }
     &:active {
-      color: $dgrey;
+      color: $blue;
       text-decoration: none;
     }
   }

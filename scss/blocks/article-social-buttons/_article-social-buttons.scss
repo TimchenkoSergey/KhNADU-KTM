@@ -1,24 +1,31 @@
 .article-social-buttons {
-  color: $dgrey;
-  font-size: $tz;
+  margin: 10px auto;
   padding: 30px 0;
 
+  color: $dgrey;
+  font-size: $tz;
+
   &__link {
-    text-decoration: none !important;
     color: $blue;
+
+    text-decoration: none !important;
     transition: 0.3s;
+
     &:hover {
       color: $blue;
       text-decoration: none;
     }
+
     &:visited {
-      color: $dgrey;
+      color: $blue;
       text-decoration: none;
     }
+
     &:visited:hover {
       color: $blue;
       text-decoration: none;
     }
+
     &:active {
       color: $blue;
       text-decoration: none;

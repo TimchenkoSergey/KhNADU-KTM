@@ -1,5 +1,4 @@
 .header {
-
 	&__phones {
 		float: left;
 
@@ -11,9 +10,10 @@
 	
 	&__phone {
 		margin-right: 20px;
+
+		color: $dgrey;
 		font-family: $os;
 		font-size: 16px;
-		color: $dgrey;
 
 		@media (max-width: 380px) {
 			display: block;
@@ -24,6 +24,7 @@
 	&__top-section {
 		padding-top: 3px;
 		padding-bottom: 3px;
+
 		border-bottom: 1px solid #f4f4f4;
 	}
 }

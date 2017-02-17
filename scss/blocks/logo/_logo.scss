@@ -1,5 +1,4 @@
 .logo {
-
 	@media (max-width: 1200px) {
 		width: 30%;
 	}
@@ -10,17 +9,18 @@
 	}
 
 	&__link {
+		color: $dgrey;
 		text-transform: none;
 		text-decoration: none;
-		color: $dgrey;
+
         transition: all .5s;
 		&:hover {
 			text-transform: none;
 			text-decoration: none;
-			color: $dgrey;
+			color: $blue;
 		}
 		&:visited {
-			color: $dgrey;
+			color: $blue;
 			text-decoration: none;
 		}
 		&:visited:hover {

@@ -1,17 +1,16 @@
 .contacts {
+	max-width: 1200px;
+	margin: 10px auto;
 	padding-top: 90px;
-    padding-bottom: 90px;
-    max-width: 1200px;
-    margin: 0 auto;
-
+	padding-bottom: 90px;
 	&__col {
 		width: 35%;
 		margin-left: 15%;
 		float: left;
 
 		@media (max-width: 991px) {
-			margin-left: 5%;
 			width: 45%;
+			margin-left: 5%;
 		}
 
 		@media (max-width: 680px) {
@@ -31,9 +30,9 @@
 
 		@media (max-width: 680px) {
 			width: 90%;
+			margin-top: 30px;
 			margin-left: 5%;
 			margin-right: 5%;
-			margin-top: 30px;
 		}
 	}
 }

@@ -4,10 +4,11 @@
 	&__title {
 		padding-top: 30px;
 		padding-bottom: 30px;
-	    color: $blue;
-	    text-align: center;
+
+		color: $blue;
+		font-family: $exo;
 	    font-size: 44px;
-	    font-family: $exo;
+		text-align: center;
 	}
 
 	&__container {
@@ -40,12 +41,13 @@
 	}
 
 	&__inform {
+		margin-bottom: 0;
+
+		color: #3c3d41;
 		font-family: $os;
 		font-size: 14px;
-		text-transform: uppercase;
 		font-weight: bold;
-		color: #3c3d41;
-		margin-bottom: 0;
+		text-transform: uppercase;
 		letter-spacing: 4px;
 
 		@media (max-width: 991px) {
@@ -54,13 +56,14 @@
 	}
 
 	&__header {
+		margin-top: 0;
+		margin-bottom: 0;
 		padding-top: 15px;
 		padding-bottom: 15px;
-	    color: #3c3d41;
+
+		color: #3c3d41;
 	    font-size: 44px;
 	    font-family: $exo;
-	    margin-top: 0;
-	    margin-bottom: 0;
 
 	    @media (max-width: 991px) {
 			text-align: center;
@@ -78,40 +81,48 @@
 	}
 
 	&__more {
-		margin-top: 40px;
-		width: 151px;
 		display: block;
-		text-transform: uppercase;
-		color: #fff;
-		background: #3f9ae1;
-		font-size: 11px;
-		letter-spacing: 1px;
+		width: 151px;
+		margin-top: 40px;
 		padding: 10px;
-		border-radius: 20px;
-		font-weight: bold;
-		transition: 0.3s;
 		padding-left: 20px;
 		padding-right: 20px;
+
+		border-radius: 20px;
+
+		background: #3f9ae1;
+
+		color: #fff;
+		font-size: 11px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+
+		//transition: 0.3s;
         transition: all .5s;
 		&:hover {
-			opacity: 0.7;
-			text-decoration: none;
 			color: #fff;
+			text-decoration: none;
+
+			opacity: 0.7;
 		}
         &:visited {
-          opacity: 0.7;
-          color: #fff;
-          text-decoration: none;
+			color: #fff;
+			text-decoration: none;
+
+			opacity: 0.7;
         }
         &:visited:hover {
-          opacity: 0.7;
-          color: #fff;
-          text-decoration: none;
+			color: #fff;
+			text-decoration: none;
+
+			opacity: 0.7;
         }
         &:active {
-          opacity: 0.7;
-          color: #fff;
-          text-decoration: none;
+			color: #fff;
+			text-decoration: none;
+
+			opacity: 0.7;
         }
 
 		@media (max-width: 991px) {

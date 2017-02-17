@@ -52,18 +52,18 @@
 		position: relative;
 
 		color: #fff;
-		text-transform: uppercase;
-		text-align: center;
 		font-size: 50px;
 		font-weight: 400;
+		text-align: center;
+		text-transform: uppercase;
 
 		&:before {
-			content: "";
 			width: 50%;
 			height: 2px;
-			position: absolute;
 			top: 130px;
 			left: 25%;
+			position: absolute;
+			content: "";
 
 			background-color: #fff;
 
@@ -82,15 +82,17 @@
 	}
 
 	&__text {
+		width: 80%;
+		margin: 0 auto;
+		padding-top: 60px;
+
 		color: #fff;
-	    text-align: center;
 	    font-size: 20px;
-	    width: 80%;
-	    margin: 0 auto;
-	    padding-top: 60px;
+		text-align: center;
 
 	    @media (max-width: 650px) {
 	    	padding-top: 40px;
+
 			font-size: 16px;
 		}
 

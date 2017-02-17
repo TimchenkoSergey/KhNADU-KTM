@@ -1,27 +1,31 @@
 .specialties {
 	padding-top: 50px;
 	padding-bottom: 110px;
+
 	background-color: #f4f4f4;
+
 	text-align: center;
 
 	&--white {
-		background-color: #fff;
 		padding-bottom: 40px;
 		padding-top: 30px;
+
+		background-color: #fff;
 	}
 	
 	&__container {
+		width: 100% !important;
 		padding-left: 0;
 		padding-right: 0;
-		width: 100% !important;
 	}
 
 	&__title {
 		padding-bottom: 30px;
-	    color: $blue;
-	    text-align: center;
-	    font-size: 44px;
-	    font-family: $exo;
+
+		color: $blue;
+		font-family: $exo;
+		font-size: 44px;
+		text-align: center;
 
 	    @media (max-width: 350px) {
 			font-size: 40px;
@@ -31,10 +35,11 @@
 	&__item {
 		max-width: 320px;
 		width: 100%;
-		padding: 35px;
-		background: #fff;
-		float: left;
 		margin-right: 30px;
+		padding: 35px;
+		float: left;
+
+		background: #fff;
 
 		&:last-child {
 			margin-right: 0;
@@ -45,10 +50,10 @@
 		}
 
 		@media (max-width: 995px) {
-			margin-right: 0;
 			width: 320px;
-			float: none;
+			margin-right: 0;
 			margin-bottom: 20px;
+			float: none;
 		}
 
 		@media (max-width: 350px) {
@@ -61,38 +66,40 @@
 	}
 
 	&__row {
-		margin-top: 40px;
 		display: inline-block;
+		margin-top: 40px;
+
 		text-align-last: auto;
 	}
 
 	&__specialtie {
-		font-size: 13px;
-		text-transform: uppercase;
-		font-family: $os;
 		color: $blue;
+		font-family: $os;
+		font-size: 13px;
 		font-weight: bold;
 		text-align: left;
+		text-transform: uppercase;
 	}
 
 	&__header {
-		font-size: 20px;
+		margin-bottom: 20px;
+
 		font-family: $os;
+		font-size: 20px;
 		font-weight: bold;
 		text-align: left;
-		margin-bottom: 20px;
 	}
 
 	&__link {
 		color: #303133;
-		transition: 0.3s;
 
+		transition: 0.3s;
 		&:hover {
 			color: $blue;
 			text-decoration: none;
 		}
 		&:visited {
-			color: $dgrey;
+			color: $blue;
 			text-decoration: none;
 		}
 		&:visited:hover {
@@ -106,27 +113,31 @@
 	}
 
 	&__text {
-		font-size: 15px;
-		font-family: $os;
-		text-align: left;
-		color: #8D8D8D;
 		padding-bottom: 20px;
-		border-bottom: 1px solid #dedede;
 		margin-bottom: 30px;
+
+		border-bottom: 1px solid #dedede;
+
+		color: #8D8D8D;
+		font-family: $os;
+		font-size: 15px;
+		text-align: left;
 	}
 
 	&__information {
+		margin-bottom: 2px;
+
+		color: #303133;
+		font-family: $os;
 		font-size: 13px;
 		font-weight: bold;
-		color: #303133;
 		text-align: left;
-		margin-bottom: 2px;
-		font-family: $os;
 	}
 
 	&__icon {
 		padding-right: 10px;
-		font-size: 14px;
+
 		color: $blue;
+		font-size: 14px;
 	}
 }

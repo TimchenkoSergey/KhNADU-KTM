@@ -2,8 +2,8 @@
 	margin-top: 40px;
 	padding-top: 30px;
 	padding-bottom: 60px;
-	background: #f4f4f4;
 
+	background: #f4f4f4;
 	&--white {
 		background: #fff;
 	}
@@ -11,16 +11,18 @@
 	&__text {
 		padding-top: 10px;
 		padding-bottom: 40px;
-		font-size: 14px;
-		font-family: $os;
+
 		color: $dgrey;
+		font-family: $os;
+		font-size: 14px;
 	}
 
 	&__header {
 		padding-bottom: 40px;
-		font-family: $exo;
-	    font-size: 40px;
+
 	    color: $blue;
+		font-family: $exo;
+		font-size: 40px;
 	    text-align: center;
 	}
 

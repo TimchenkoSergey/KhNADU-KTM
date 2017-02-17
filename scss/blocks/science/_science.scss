@@ -1,7 +1,6 @@
 .science {
     padding-top: 30px;
     padding-bottom: 50px;
-
     &__publications {
         padding-bottom: 50px;
     }
@@ -9,6 +8,7 @@
     &__link {
         color: $dgrey;
         text-decoration: none;
+
         transition: 0.3s;
 
         &:hover {
@@ -47,9 +47,10 @@
     &__header {
         margin-top: 0;
         margin-bottom: 20px;
+
+        color: $blue;
         font-family: $exo;
         font-size: 40px;
-        color: $blue;
         text-align: center;
     }
 
@@ -67,18 +68,19 @@
     }
 
     &__text {
-        text-align: left;
         margin: 20px 10px;
+        padding-top: 20px;
+
+        color: $dgrey;
         font-family: $os;
         font-size: 14px;
-        color: $dgrey;
-        padding-top: 20px;
+        text-align: left;
     }
 
     &__fetures-list {
-        list-style: none;
-        padding-left: 10px;
         margin-bottom: 0;
+        padding-left: 10px;
+        list-style: none;
     }
 
     &__row--flex {
@@ -93,10 +95,12 @@
     &__list-item {
         padding-top: 10px;
         padding-bottom: 10px;
+
         border-bottom: 1px solid #f4f4f4;
+
+        color: $dgrey;
         font-family: $os;
         font-size: 14px;
-        color: #757575;
 
         &:first-child {
           border-top: 1px solid #f4f4f4;
@@ -104,14 +108,16 @@
     }
 
     &__icon {
-        font-size: 10px;
-        color: $blue;
         margin-right: 5px;
+
+        color: $blue;
+        font-size: 10px;
     }
 
     &__header--center {
         padding-top: 40px;
         padding-bottom: 60px;
+
         text-align: center;
     }
 

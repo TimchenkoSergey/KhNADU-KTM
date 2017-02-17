@@ -1,7 +1,6 @@
 .navigation {
 	position: relative;
 	z-index: 5;
-
 	@media (max-width: 1200px) {
 		width: 70%;
 	}
@@ -11,39 +10,41 @@
 	}
 
 	@media (max-width: 767px) {
-		padding-top: 40px;
 		max-width: 284px;
 		width: 100%;
 		height: 100%;
-		position: fixed;
 		top: 0;
 		left: -284px;
-		
+		padding-top: 40px;
+		position: fixed;
+
 		background: #263238;
 		
 		transition: 0.3s;  
 	}
 
 	&--open {
+		left: 0;
 		padding-left: 0;
 		padding-right: 0;
-		left: 0;
 		z-index: 5;
 	}
 
 	&__hamburger {
 		display: none;
-		font-size: 40px;
-	    padding: 10px;
+		width: 95px;
+		padding: 10px;
 		padding-left: 30px;
-	    padding-right: 30px;
-	    width: 95px;
-	    cursor: pointer;
-	    float: right;
-	    border-radius: 5px;
-	    color: $blue;
-	    transition: 0.3s;
+		padding-right: 30px;
+		float: right;
 
+		border-radius: 5px;
+
+		color: $blue;
+		font-size: 40px;
+
+	    transition: 0.3s;
+		cursor: pointer;
 		&:hover {
 			color: $dblue;
 		}
@@ -73,8 +74,9 @@
 			display: inline-block;
 			width: 25px;
 			margin-right: 20px;
-			font-size: 20px;
+
 			color: #fff;
+			font-size: 20px;
 		}
 	}
 
@@ -99,40 +101,43 @@
 
 		@media (max-width: 767px) {
 			display: block;
-			float: none;
 			width: 100%;
+			float: none;
+
 			cursor: pointer; 
 		}
 	}
 
 	&__link {
-		width: 100%;
 		display: block;
+		width: 100%;
 		padding-top: 30px;
 		padding-bottom: 35px;
 		position: relative;
 
 		color: $dgrey;
-		text-transform: uppercase;
 		font-family: $os;
 		font-size: 12px;
 		font-weight: 600;
+		text-transform: uppercase;
 
 		transition: 0.5s;
-
+        &:link {
+          color: $dgrey;
+        }
 		&:hover {
 			color: $blue;
 			text-decoration: none;
 		}
-		&:visited {
-			color: $dgrey;
-			text-decoration: none;
-		}
-        &:visited:hover {
+		&:active {
 			color: $blue;
 			text-decoration: none;
 		}
-		&:active {
+		&:visited {
+			color: $blue;
+			text-decoration: none;
+		}
+		&:visited:hover {
 			color: $blue;
 			text-decoration: none;
 		}
@@ -144,8 +149,10 @@
 
 		@media (max-width: 767px) {
 			padding-left: 25px;
-			text-align: left;
+
+
 			color: #fff;
+			text-align: left;
 
 			&:hover {
 				background: #37474F;

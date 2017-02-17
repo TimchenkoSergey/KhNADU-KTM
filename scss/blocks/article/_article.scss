@@ -1,42 +1,42 @@
 .article {
-    text-align: center;
-    position: relative;
-    
+  position: relative;
+  text-align: center;
     &__img {
-        padding: 70px 0 30px 0;
-        width: 100%;
-        max-height: 780px;
-        max-width: 750px;
+      max-width: 750px;
+      width: 100%;
+      max-height: 780px;
+      padding: 70px 0 30px 0;
     }
 
     &__title {
-        color: $dgrey;
-        font-size: $hz;
-        font-family: $exo;
-        font-weight: $hw;
+      color: $dgrey;
+      font-family: $exo;
+      font-size: $hz;
+      font-weight: $hw;
     }
 
     &__category {
-        color: $blue;
-        font-size: $hz/2;
-        font-family: $os;
+      color: $blue;
+      font-family: $os;
+      font-size: $hz/2;
     }
 
     &__text {
-        color: $dgrey;
-        font-size: $tz;
-        font-family: $os;
+      color: $dgrey;
+      font-family: $os;
+      font-size: $tz;
     }
 
     &__link {
-        color: $dgrey;
-          transition: all .5s;
+      color: $dgrey;
+
+      transition: all .5s;
       &:hover {
         color: $blue;
         text-decoration: none;
       }
       &:visited {
-        color: $dgrey;
+        color: $blue;
         text-decoration: none;
       }
       &:visited:hover {

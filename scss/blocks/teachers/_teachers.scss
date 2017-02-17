@@ -8,40 +8,43 @@
   }
 
   &__first-column {
-    margin: auto;
-    padding: 45px;
-    box-sizing: border-box;
     max-width: 450px;
     width: 100%;
+    margin: auto;
+    padding: 45px;
+
+    box-sizing: border-box;
 
     @media (max-width: 1150px) {
       width: 41.66666667%;
     }
 
     @media (max-width: 991px) {
-      width: 100%;
       max-width: 1000px;
-      text-align: center;
+      width: 100%;
       padding: 0px;
       padding-top: 20px;
       padding-bottom: 20px;
+
+      text-align: center;
     }
   }
 
   &__second-column {
-    margin: auto;
-    padding: 45px;
-    box-sizing: border-box;
     max-width: 650px;
     width: 100%;
+    margin: auto;
+    padding: 45px;
+
+    box-sizing: border-box;
 
     @media (max-width: 1150px) {
         width: 58.33333333%;
     }
 
     @media (max-width: 991px) {
-      width: 100%;
       max-width: 1000px;
+      width: 100%;
       padding: 0px;
       padding-top: 20px;
       padding-bottom: 20px;
@@ -58,10 +61,11 @@
   &__header {
     margin: 0;
     padding-bottom: 30px;
+
+    color: $blue;
+    font-family: $exo;
     font-size: $hz;
     font-weight: 600;
-    font-family: $exo;
-    color: $blue;
 
     @media (max-width: 991px) {
       text-align: center;
@@ -74,9 +78,9 @@
   }
 
   &__names-header {
+    color: $dgrey;
     font-size: $hz;
     font-weight: 600;
-    color: $dgrey;
   }
 
   &__about {
@@ -85,12 +89,14 @@
 
   &__social-buttons {
     padding: 10px 0;
+
     border-bottom: 1px solid #f4f4f4;
   }
 
   &__data {
     padding: 5px;
     padding-left: 0;
+
     border-bottom: 1px solid #f4f4f4;
 
     @media (max-width: 991px) {
@@ -99,43 +105,48 @@
   }
 
   &__data-header {
+    color: $dgrey;
     font-size: 16px;
     font-weight: 600;
-    color: $dgrey;
   }
 
   &__data-information {
-      color: $grey;
-      margin-left: 30px;
+    margin-left: 30px;
+
+    color: $grey;
   }
 
   &__data-image {
-    float: left;
     margin: 12px 15px;
-    color: $blue;
     margin-left: 0px;
+    float: left;
+
+    color: $blue;
   }
 
   &__greeting {
     margin: 0;
-    color: $dgrey;
     padding-bottom: 30px;
+
+    color: $dgrey;
   }
 
   &__greeting-list {
     margin:0;
     margin-bottom: 30px;
-    list-style: none;
     padding-left: 10px;
+    list-style: none;
   }
 
   &__list {
     padding-top: 10px;
-      padding-bottom: 10px;
+    padding-bottom: 10px;
+
     border-bottom: 1px solid #f4f4f4;
+
+    color: $dgrey;
     font-family: $os;
     font-size: 14px;
-    color: #757575;
 
     &:first-child {
       border-top: 1px solid #f4f4f4;
@@ -143,16 +154,19 @@
   }
 
   &__icon {
-    font-size: 10px;
-    color: $blue;
     margin-right: 5px;
+
+    color: $blue;
+    font-size: 10px;
   }
 
   &__biografy {
     margin: 10px 0;
     padding: 15px 25px;
-    background: #f4f4f4;
+
     border-radius: 2px;
+
+    background: #f4f4f4;
   }
 
   &__header4 {
@@ -171,8 +185,10 @@
 
   &__comment {
     padding: 30px;
-    background: #f4f4f4;
+
     border-radius: 2px;
+
+    background: #f4f4f4;
   }
 
   &__comment-paragraph {
@@ -180,14 +196,15 @@
   }
 
   &__author {
-    padding-top: 40px;
     margin: 0;
-    font-size: 16px;
-    font-weight: 300;
-    color: $dgrey;
     margin-left: 115px;
-    text-align: right;
+    padding-top: 40px;
+
+    color: $dgrey;
+    font-size: 16px;
     font-style: italic;
+    font-weight: 300;
+    text-align: right;
   }
 
   &__last-paragraph {
@@ -195,10 +212,11 @@
   }
 
   &__social-buttons-link {
-    color: $blue;
-    transition: 0.3s;
     padding: 0 20px 25px 0;
 
+    color: $blue;
+
+    transition: 0.3s;
     &:hover {
       color: $dblue;
       text-decoration: none;
@@ -207,11 +225,13 @@
 
   &__comment-quote-left {
       float: left;
+
       color: $blue;
   }
 
   &__comment-quote-right {
       float: right;
+
       color: $blue;
   }
 }

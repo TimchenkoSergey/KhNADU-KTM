@@ -10,7 +10,7 @@
 			text-decoration: none
 		}
 		&:visited {
-			color: $dgrey;
+			color: $blue;
 			text-decoration: none;
 		}
 		&:visited:hover {
@@ -24,10 +24,10 @@
 	}
 
 	@media (max-width: 550px) {
-		float: none;
-	    width: 138px;
+		width: 138px;
 	    margin: 0 auto;
 	    padding-top: 10px;
+		float: none;
 	}
 
 	&--fln {
@@ -55,12 +55,13 @@
 
 	&__picture {
 		margin-right: 30px;
+
 		font-size: 15px;
 	}
 
 	&__icon--fl {
-		float: none;
 		margin-bottom: 25px;
+		float: none;
 
 		@media (max-width: 550px) {
 			width: 100%;
@@ -79,6 +80,7 @@
 	&__picture--width {
 		width: 45px;
 		margin-right: 0;
+
 		font-size: 25px;
 	}
 
@@ -86,11 +88,11 @@
 		padding-left: 35px;
 
 		@media (max-width: 550px) {
+			width: 100%;
+			margin-left: 0;
+			margin-right: 0;
+			padding-top: 0;
 			float: none;
-		    width: 100%;
-		    margin-left: 0;
-		    margin-right: 0;
-		    padding-top: 0;
 		}
 	}
 }

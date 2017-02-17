@@ -1,34 +1,15 @@
 .graduates {
-	height: 420px;
 	width: 100%;
+	height: 420px;
 	margin-bottom: 60px;
 	position: relative;
-	background: url(../img/slide1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
 	overflow: hidden;
 
-	@media (max-width: 850px) {
-		height: 450px;
-	}
-
-	@media (max-width: 700px) {
-		height: 490px;
-	}
-
-	@media (max-width: 500px) {
-		height: 530px;
-	}
-
-	@media (max-width: 440px) {
-		height: 570px;
-	}
-
-	@media (max-width: 350px) {
-		height: 600px;
-	}
+	background: url(../img/slide1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 
 	&__container {
 
@@ -38,12 +19,13 @@
 	}
 
 	&__fade {
-		position: absolute;
-		top: 0;
-		left: 0;
-		z-index: 5;
 		width: 100%;
 		height: 420px;
+		top: 0;
+		left: 0;
+		position: absolute;
+		z-index: 5;
+
 		background: rgba(0, 0, 0, 0.6);
 
 		@media (max-width: 850px) {
@@ -80,8 +62,8 @@
 		max-width: 700px;
 		width: 100%;
 		margin: 0 auto;
-		position: static;
 		padding-top: 30px;
+		position: static;
 
 		@media (max-width: 850px) {
 			max-width: 500px;
@@ -91,12 +73,13 @@
 	&__photo {
 		width: 90px !important;
 		height: 90px;
-		border-radius: 50%;
 		float: left;
 
+		border-radius: 50%;
+
 		@media (max-width: 350px) {
-			float: none;
 			display: inline-block !important;
+			float: none;
 		}
 	}
 
@@ -106,21 +89,23 @@
 
 	&__inf {
 		padding-top: 10px;
-	    float: left;
-	    padding-left: 20px;
+		padding-left: 20px;
+		float: left;
 
 	    @media (max-width: 350px) {
-			float: none;
 			padding-left: 0;
+			float: none;
 		}
 	}
 
 	&__header {
 		padding-top: 50px;
     	padding-bottom: 10px;
-		font-size: 44px;
+
 		color: #fff;
 		font-family: $exo;
+		font-size: 44px;
+
 		text-align: center;
 
 		@media (max-width: 700px) {
@@ -129,20 +114,21 @@
 	}
 
 	&__comment {
+		color: #fff;
+		font-family: $os;
 		font-size: 16px;
 		line-height: 20px;
-		color: #fff;
 		text-align: center;
-		font-family: $os;
 	}
 
 	& .owl-next {
-		font-size: 30px    !important;
-	    background: none   !important;
-	    position: absolute !important;
-	    top: 180px 		   !important;
-	    right: 0px 	       !important;
+		top: 180px 		   !important;
+		right: 0px 	       !important;
+		position: absolute !important;
 
+		background: none   !important;
+
+		font-size: 30px    !important;
 	    @media (max-width: 650px) {
 			top: 140px !important;
 		}
@@ -157,11 +143,13 @@
 	}
 
 	& .owl-prev {
+		top: 180px 		   !important;
+		left: 0px 		   !important;
+		position: absolute !important;
+
+		background: none   !important;
+
 		font-size: 30px    !important;
-	    background: none   !important;
-	    position: absolute !important;
-	    top: 180px 		   !important;
-	    left: 0px 		   !important;
 
 	    @media (max-width: 650px) {
 			top: 140px !important;
@@ -181,12 +169,12 @@
 	}
 
 	&__name {
-		font-family: $os;
 		color: #fff;
-		text-transform: uppercase;
-		font-weight: bold;
+		font-family: $os;
 		font-size: 16px;
+		font-weight: bold;
 		text-align: left;
+		text-transform: uppercase;
 
 		@media (max-width: 350px) {
 			text-align: center;
@@ -194,18 +182,39 @@
 	}
 
 	&__position {
-		font-family: $os;
 		color: #fff;
+		font-family: $os;
 		font-size: 16px;
 	}
 
 	&__graduate-info {
+		display: inline-block;
 		margin-top: 40px;
-    	display: inline-block;
 
     	@media (max-width: 350px) {
 			display: block;
 			text-align: center;
 		}
 	}
+
+	@media (max-width: 850px) {
+		height: 450px;
+	}
+
+	@media (max-width: 700px) {
+		height: 490px;
+	}
+
+	@media (max-width: 500px) {
+		height: 530px;
+	}
+
+	@media (max-width: 440px) {
+		height: 570px;
+	}
+
+	@media (max-width: 350px) {
+		height: 600px;
+	}
+
 }
