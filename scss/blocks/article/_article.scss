@@ -1,53 +1,14 @@
 .article {
   position: relative;
   text-align: center;
-    &__img {
-      max-width: 750px;
-      width: 100%;
-      max-height: 780px;
-      padding: 70px 0 30px 0;
-    }
 
-    &__title {
-      color: $dgrey;
-      font-family: $exo;
-      font-size: $hz;
-      font-weight: $hw;
-    }
+  //elements
+  @import "elements/_img";
+  @import "elements/_title";
+  @import "elements/_category";
+  @import "elements/_text";
+  @import "elements/_link";
 
-    &__category {
-      color: $blue;
-      font-family: $os;
-      font-size: $hz/2;
-    }
-
-    &__text {
-      color: $dgrey;
-      font-family: $os;
-      font-size: $tz;
-    }
-
-    &__link {
-      color: $dgrey;
-
-      transition: all .5s;
-      &:hover {
-        color: $blue;
-        text-decoration: none;
-      }
-      &:visited {
-        color: $blue;
-        text-decoration: none;
-      }
-      &:visited:hover {
-        color: $blue;
-        text-decoration: none;
-      }
-      &:active {
-        color: $blue;
-        text-decoration: none;
-      }
-    }
 }
 
 .owl-theme .owl-dots .owl-dot.active span,

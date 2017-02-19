@@ -1,133 +1,19 @@
 .news {
 	padding-bottom: 90px;
 
-	&__title {
-		padding-top: 30px;
-		padding-bottom: 30px;
+	//elements
+	@import "elements/_title";
+	@import "elements/_container";
+	@import "elements/_img";
+	@import "elements/_col";
+	@import "elements/_inform";
+	@import "elements/_header";
+	@import "elements/_text";
+	@import "elements/_more";
 
-		color: $blue;
-		font-family: $exo;
-	    font-size: 44px;
-		text-align: center;
-	}
+	//modifiers
+	@import "modifiers/_col--padding";
 
-	&__container {
-		margin-top: 40px;
-	}
 
-	&__img {
-		width: 100%;
-		height: auto;
-	}
 
-	&__col {
-		padding-top: 100px;
-		padding-left: 50px;
-		padding-right: 30px;
-
-		@media (max-width: 991px) {
-			padding-top: 30px;
-			padding-left: 0;
-			padding-right: 0;
-			padding-bottom: 30px;
-		}
-	}
-
-	&__col--padding {
-		padding-top: 0;
-		padding-left: 0;
-		padding-right: 0;
-		padding-bottom: 0;
-	}
-
-	&__inform {
-		margin-bottom: 0;
-
-		color: #3c3d41;
-		font-family: $os;
-		font-size: 14px;
-		font-weight: bold;
-		text-transform: uppercase;
-		letter-spacing: 4px;
-
-		@media (max-width: 991px) {
-			text-align: center;
-		}
-	}
-
-	&__header {
-		margin-top: 0;
-		margin-bottom: 0;
-		padding-top: 15px;
-		padding-bottom: 15px;
-
-		color: #3c3d41;
-	    font-size: 44px;
-	    font-family: $exo;
-
-	    @media (max-width: 991px) {
-			text-align: center;
-		}
-	}
-
-	&__text {
-		color: #3c3d41;
-		font-family: $os;
-		font-size: 14px;
-
-		@media (max-width: 991px) {
-			text-align: center;
-		}
-	}
-
-	&__more {
-		display: block;
-		width: 151px;
-		margin-top: 40px;
-		padding: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
-
-		border-radius: 20px;
-
-		background: #3f9ae1;
-
-		color: #fff;
-		font-size: 11px;
-		font-weight: bold;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-
-		//transition: 0.3s;
-        transition: all .5s;
-		&:hover {
-			color: #fff;
-			text-decoration: none;
-
-			opacity: 0.7;
-		}
-        &:visited {
-			color: #fff;
-			text-decoration: none;
-
-			opacity: 0.7;
-        }
-        &:visited:hover {
-			color: #fff;
-			text-decoration: none;
-
-			opacity: 0.7;
-        }
-        &:active {
-			color: #fff;
-			text-decoration: none;
-
-			opacity: 0.7;
-        }
-
-		@media (max-width: 991px) {
-			margin-left: auto;
-			margin-right: auto;
-		}
-	}
 }

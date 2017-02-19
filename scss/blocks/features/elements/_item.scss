@@ -1,0 +1,14 @@
+&__item {
+  width: 340px;
+  padding: 40px;
+  float: left;
+
+  @media (max-width: 991px) {
+    margin-bottom: 20px;
+    float: none;
+  }
+
+  @media (max-width: 1060px) {
+    width: 310px;
+  }
+}

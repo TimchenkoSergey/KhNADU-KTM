@@ -1,0 +1,8 @@
+&__phones {
+  float: left;
+
+  @media (max-width: 550px) {
+    float: none;
+    text-align: center;
+  }
+}

@@ -3,36 +3,9 @@
 	margin: 10px auto;
 	padding-top: 90px;
 	padding-bottom: 90px;
-	&__col {
-		width: 35%;
-		margin-left: 15%;
-		float: left;
 
-		@media (max-width: 991px) {
-			width: 45%;
-			margin-left: 5%;
-		}
+  //elements
+    @import "elements/_col";
+    @import "elements/_col-6";
 
-		@media (max-width: 680px) {
-			width: 90%;
-			margin-left: 5%;
-			margin-right: 5%;
-		}
-	}
-
-	&__col-6 {
-		width: 35%;
-		float: left;
-
-		@media (max-width: 991px) {
-			width: 45%;
-		}
-
-		@media (max-width: 680px) {
-			width: 90%;
-			margin-top: 30px;
-			margin-left: 5%;
-			margin-right: 5%;
-		}
-	}
 }

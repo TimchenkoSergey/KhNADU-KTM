@@ -2,94 +2,20 @@
     margin-top: 40px;
     margin-bottom: 70px;
 
-    &__header {
-        padding-top: 30px;
-        padding-bottom: 30px;
+    //elements
+    @import "elements/_header";
+    @import "elements/_row";
+    @import "elements/_svg";
+    @import "elements/_icon";
+    @import "elements/_item";
+    @import "elements/_head";
+    @import "elements/_text";
 
-        color: $blue;
-        text-align: center;
-        font-family: $exo;
-        font-size: 44px;
-    }
+    //modifiers
+    @import "modifiers/_item--first";
+    @import "modifiers/_item--second";
+    @import "modifiers/_item--third";
+    @import "modifiers/_svg--w";
+    @import "modifiers/_icon--pb";
 
-    &__row {
-        width: 1020px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 40px;
-
-        @media (max-width: 1060px) {
-            width: 960px;
-        }
-
-        @media (max-width: 991px) {
-            width: 310px;
-        }
-    }
-
-    &__svg {
-        width: 80px;
-        fill: #fff;
-    }
-
-    &__icon {
-        padding-bottom: 10px;
-        text-align: center;
-    }
-
-    &__item {
-        width: 340px;
-        padding: 40px;
-        float: left;
-
-        @media (max-width: 991px) {
-            margin-bottom: 20px;
-            float: none;
-        }
-
-        @media (max-width: 1060px) {
-            width: 310px;
-        }
-    }
-
-    &__item--first {
-        background: #91c8f2;
-    }
-    
-    &__item--second {
-        background: #5ea6dd;
-    }
-
-    &__item--third {
-        background: #3f9ae1;
-    }
-
-    &__head {
-        height: 100px;
-        margin-bottom: 20px;
-        padding-bottom: 10px;
-
-        border-bottom: 1px solid #fff;
-
-        color: #fff;
-        font-family: $exo;
-        font-size: 30px;
-        text-align: center;
-
-        box-sizing: content-box;
-    }
-
-    &__svg--w {
-        width: 90px;
-    }
-
-    &__icon--pb {
-        padding-bottom: 0;
-    }
-
-    &__text {
-        color: #fff;
-        font-family: $os;
-        font-size: 12px;
-    }
 }

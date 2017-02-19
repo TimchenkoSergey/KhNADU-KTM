@@ -1,0 +1,14 @@
+&__image {
+  padding-top: 10px;
+  position: relative;
+
+  color: $dgrey;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+
+  @media (max-width: 991px) {
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+}

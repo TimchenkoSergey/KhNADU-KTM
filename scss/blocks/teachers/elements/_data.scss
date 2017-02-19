@@ -1,0 +1,10 @@
+&__data {
+  padding: 5px;
+  padding-left: 0;
+
+  border-bottom: 1px solid #f4f4f4;
+
+  @media (max-width: 991px) {
+    text-align: left;
+  }
+}

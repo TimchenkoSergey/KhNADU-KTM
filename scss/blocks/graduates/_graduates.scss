@@ -11,115 +11,19 @@
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 
-	&__container {
-
-		@media (max-width: 991px) {
-			width: 100% !important;
-		}
-	}
-
-	&__fade {
-		width: 100%;
-		height: 420px;
-		top: 0;
-		left: 0;
-		position: absolute;
-		z-index: 5;
-
-		background: rgba(0, 0, 0, 0.6);
-
-		@media (max-width: 850px) {
-			height: 450px;
-		}
-
-		@media (max-width: 700px) {
-			height: 490px;
-		}
-
-		@media (max-width: 500px) {
-			height: 530px;
-		}
-
-		@media (max-width: 440px) {
-			height: 570px;
-		}
-
-		@media (max-width: 350px) {
-			height: 600px;
-		}
-	}
-
-	&__wrap {
-		position: relative;
-		z-index: 10;
-
-		@media (max-width: 1030px) {
-			width: 100% !important;
-		}
-	}
-
-	&__carousel {
-		max-width: 700px;
-		width: 100%;
-		margin: 0 auto;
-		padding-top: 30px;
-		position: static;
-
-		@media (max-width: 850px) {
-			max-width: 500px;
-		}
-	}
-
-	&__photo {
-		width: 90px !important;
-		height: 90px;
-		float: left;
-
-		border-radius: 50%;
-
-		@media (max-width: 350px) {
-			display: inline-block !important;
-			float: none;
-		}
-	}
-
-	&__item {
-		text-align: center;
-	}
-
-	&__inf {
-		padding-top: 10px;
-		padding-left: 20px;
-		float: left;
-
-	    @media (max-width: 350px) {
-			padding-left: 0;
-			float: none;
-		}
-	}
-
-	&__header {
-		padding-top: 50px;
-    	padding-bottom: 10px;
-
-		color: #fff;
-		font-family: $exo;
-		font-size: 44px;
-
-		text-align: center;
-
-		@media (max-width: 700px) {
-			padding-top: 20px;
-		}
-	}
-
-	&__comment {
-		color: #fff;
-		font-family: $os;
-		font-size: 16px;
-		line-height: 20px;
-		text-align: center;
-	}
+	//elements
+	@import "elements/_container";
+	@import "elements/_fade";
+	@import "elements/_wrap";
+	@import "elements/_carousel";
+	@import "elements/_photo";
+	@import "elements/_item";
+	@import "elements/_inf";
+	@import "elements/_header";
+	@import "elements/_comment";
+	@import "elements/_name";
+	@import "elements/_position";
+	@import "elements/_graduate-info";
 
 	& .owl-next {
 		top: 180px 		   !important;
@@ -168,34 +72,7 @@
 		position: static !important;
 	}
 
-	&__name {
-		color: #fff;
-		font-family: $os;
-		font-size: 16px;
-		font-weight: bold;
-		text-align: left;
-		text-transform: uppercase;
 
-		@media (max-width: 350px) {
-			text-align: center;
-		}
-	}
-
-	&__position {
-		color: #fff;
-		font-family: $os;
-		font-size: 16px;
-	}
-
-	&__graduate-info {
-		display: inline-block;
-		margin-top: 40px;
-
-    	@media (max-width: 350px) {
-			display: block;
-			text-align: center;
-		}
-	}
 
 	@media (max-width: 850px) {
 		height: 450px;

@@ -1,0 +1,19 @@
+&__input {
+  max-width: 230px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+
+  border: none;
+  border-radius: 3px;
+  border: 1px solid #cfcfcf;
+
+
+  transition: 0.3s;
+  box-shadow: none;
+  outline: none;
+
+  &:hover {
+    border: 1px solid $dgrey;
+  }
+}

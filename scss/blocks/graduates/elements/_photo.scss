@@ -1,0 +1,12 @@
+&__photo {
+  width: 90px !important;
+  height: 90px;
+  float: left;
+
+  border-radius: 50%;
+
+  @media (max-width: 350px) {
+    display: inline-block !important;
+    float: none;
+  }
+}

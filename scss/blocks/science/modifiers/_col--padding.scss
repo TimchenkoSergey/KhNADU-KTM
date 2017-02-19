@@ -1,0 +1,10 @@
+&__col--padding {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+  padding-left: 20px;
+
+  @media (max-width: 991px) {
+    margin-top: 30px;
+  }
+}

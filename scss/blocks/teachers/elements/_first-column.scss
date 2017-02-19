@@ -1,0 +1,22 @@
+&__first-column {
+  max-width: 450px;
+  width: 100%;
+  margin: auto;
+  padding: 45px;
+
+  box-sizing: border-box;
+
+  @media (max-width: 1150px) {
+    width: 41.66666667%;
+  }
+
+  @media (max-width: 991px) {
+    max-width: 1000px;
+    width: 100%;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    text-align: center;
+  }
+}

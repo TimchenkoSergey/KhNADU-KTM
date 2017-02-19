@@ -1,0 +1,25 @@
+&__link {
+  display: block;
+  position: relative;
+  overflow: hidden;
+
+  &:hover {
+    text-decoration: none;
+
+    & .article-owl-carousel__description {
+      opacity: 1;
+    }
+  }
+  &:visited {
+    color: $blue;
+    text-decoration: none;
+  }
+  &:visited:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+  &:active {
+    color: $blue;
+    text-decoration: none;
+  }
+}

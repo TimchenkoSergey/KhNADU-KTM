@@ -5,34 +5,8 @@
   color: $dgrey;
   font-size: $tz;
 
-  &__link {
-    color: $blue;
+  //elements
+  @import "elements/_link";
+  @import "elements/_item";
 
-    text-decoration: none !important;
-    transition: 0.3s;
-
-    &:hover {
-      color: $blue;
-      text-decoration: none;
-    }
-
-    &:visited {
-      color: $blue;
-      text-decoration: none;
-    }
-
-    &:visited:hover {
-      color: $blue;
-      text-decoration: none;
-    }
-
-    &:active {
-      color: $blue;
-      text-decoration: none;
-    }
-  }
-
-  &__item {
-    padding: 0 10px;
-  }
 }

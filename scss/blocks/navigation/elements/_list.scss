@@ -1,0 +1,11 @@
+&__list {
+  padding-left: 0;
+  padding-top: 10px;
+  margin-bottom: 0;
+
+  list-style: none;
+
+  @media (max-width: 991px) {
+    padding-top: 0;
+  }
+}

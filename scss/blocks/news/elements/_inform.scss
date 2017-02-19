@@ -1,0 +1,14 @@
+&__inform {
+  margin-bottom: 0;
+
+  color: #3c3d41;
+  font-family: $os;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  @media (max-width: 991px) {
+    text-align: center;
+  }
+}

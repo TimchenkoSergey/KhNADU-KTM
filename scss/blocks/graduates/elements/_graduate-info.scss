@@ -1,0 +1,9 @@
+&__graduate-info {
+  display: inline-block;
+  margin-top: 40px;
+
+  @media (max-width: 350px) {
+    display: block;
+    text-align: center;
+  }
+}

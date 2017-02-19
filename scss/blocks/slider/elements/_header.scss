@@ -1,0 +1,33 @@
+&__header {
+  padding-top: 50px;
+  position: relative;
+
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+
+  &:before {
+    width: 50%;
+    height: 2px;
+    top: 130px;
+    left: 25%;
+    position: absolute;
+    content: "";
+
+    background-color: #fff;
+
+    @media (max-width: 650px) {
+      top: 110px;
+    }
+
+    @media (max-width: 436px) {
+      top: 135px;
+    }
+  }
+
+  @media (max-width: 650px) {
+    font-size: 35px;
+  }
+}

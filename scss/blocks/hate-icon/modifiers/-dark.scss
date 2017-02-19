@@ -1,0 +1,21 @@
+&--dark::before {
+  width: 25px;
+  height: 2px;
+  top: 10px;
+  left: -28px;
+  position: absolute;
+  content: "";
+
+  background: $dgrey;
+}
+
+&--dark::after {
+  width: 25px;
+  height: 2px;
+  top: 10px;
+  right: -28px;
+  position: absolute;
+  content: "";
+
+  background: $dgrey;
+}

@@ -1,0 +1,14 @@
+&__list {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border-bottom: 1px solid #f4f4f4;
+
+  color: $dgrey;
+  font-family: $os;
+  font-size: 14px;
+
+  &:first-child {
+    border-top: 1px solid #f4f4f4;
+  }
+}

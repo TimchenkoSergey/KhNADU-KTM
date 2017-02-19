@@ -23,37 +23,6 @@
 		transition: 0.3s;  
 	}
 
-	&--open {
-		left: 0;
-		padding-left: 0;
-		padding-right: 0;
-		z-index: 5;
-	}
-
-	&__hamburger {
-		display: none;
-		width: 95px;
-		padding: 10px;
-		padding-left: 30px;
-		padding-right: 30px;
-		float: right;
-
-		border-radius: 5px;
-
-		color: $blue;
-		font-size: 40px;
-
-	    transition: 0.3s;
-		cursor: pointer;
-		&:hover {
-			color: $dblue;
-		}
-
-		@media (max-width: 767px) {
-			display: block;
-		}
-	}
-
 	@media (max-width: 600px) {
 		padding-left: 0;
 		padding-right: 0;
@@ -67,96 +36,14 @@
 		max-width: 225px;
 	}
 
-	&__icon {
-		display: none;
+	//elements
+	@import "elements/_hamburger";
+	@import "elements/_icon";
+	@import "elements/_list";
+	@import "elements/_item";
+	@import "elements/_link";
 
-		@media (max-width: 767px) {
-			display: inline-block;
-			width: 25px;
-			margin-right: 20px;
+	//modifiers
+	@import "modifiers/-open";
 
-			color: #fff;
-			font-size: 20px;
-		}
-	}
-
-	&__list {
-		padding-left: 0;
-		padding-top: 10px;
-		margin-bottom: 0;
-
-		list-style: none;
-
-		@media (max-width: 991px) {
-			padding-top: 0;
-		}
-	}
-
-	&__item {
-		width: 20%;
-		position: relative;
-		float: left;
-
-		text-align: center;
-
-		@media (max-width: 767px) {
-			display: block;
-			width: 100%;
-			float: none;
-
-			cursor: pointer; 
-		}
-	}
-
-	&__link {
-		display: block;
-		width: 100%;
-		padding-top: 30px;
-		padding-bottom: 35px;
-		position: relative;
-
-		color: $dgrey;
-		font-family: $os;
-		font-size: 12px;
-		font-weight: 600;
-		text-transform: uppercase;
-
-		transition: 0.5s;
-        &:link {
-          color: $dgrey;
-        }
-		&:hover {
-			color: $blue;
-			text-decoration: none;
-		}
-		&:active {
-			color: $blue;
-			text-decoration: none;
-		}
-		&:visited {
-			color: $blue;
-			text-decoration: none;
-		}
-		&:visited:hover {
-			color: $blue;
-			text-decoration: none;
-		}
-
-		@media (max-width: 991px) {
-			padding-top: 20px;
-			padding-bottom: 20px;
-		}
-
-		@media (max-width: 767px) {
-			padding-left: 25px;
-
-
-			color: #fff;
-			text-align: left;
-
-			&:hover {
-				background: #37474F;
-			}
-		}
-	}
 }

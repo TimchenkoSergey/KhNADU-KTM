@@ -1,0 +1,51 @@
+&__link {
+  display: block;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  position: relative;
+
+  color: $dgrey;
+  font-family: $os;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  transition: 0.5s;
+  &:link {
+    color: $dgrey;
+  }
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+  &:active {
+    color: $blue;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $blue;
+    text-decoration: none;
+  }
+  &:visited:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+
+  @media (max-width: 991px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  @media (max-width: 767px) {
+    padding-left: 25px;
+
+
+    color: #fff;
+    text-align: left;
+
+    &:hover {
+      background: #37474F;
+    }
+  }
+}

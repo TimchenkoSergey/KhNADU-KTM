@@ -4,37 +4,16 @@
 	padding-bottom: 60px;
 
 	background: #f4f4f4;
-	&--white {
-		background: #fff;
-	}
 
-	&__text {
-		padding-top: 10px;
-		padding-bottom: 40px;
+	//elements
+	@import "elements/_text";
+	@import "elements/_header";
+	@import "elements/_item";
+	@import "elements/_img";
 
-		color: $dgrey;
-		font-family: $os;
-		font-size: 14px;
-	}
+	//modifiers
+	@import "modifiers/-white";
 
-	&__header {
-		padding-bottom: 40px;
-
-	    color: $blue;
-		font-family: $exo;
-		font-size: 40px;
-	    text-align: center;
-	}
-
-	&__item {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-
-	&__img {
-		width: 100%;
-		height: auto;
-	}
 }
 
 .owl-theme .owl-dots .owl-dot.active span,

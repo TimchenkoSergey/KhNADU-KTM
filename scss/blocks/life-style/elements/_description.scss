@@ -1,0 +1,16 @@
+&__description {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  padding-left: 20px;
+  position: absolute;
+  overflow: hidden;
+
+  font-size: 14px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+
+  opacity: 0;
+  transition: 0.3s;
+}

@@ -1,0 +1,35 @@
+&__link {
+  display        : block 	   !important;
+  width          : 100% 	   !important;
+  padding-top    : 5px 	       !important;
+  padding-left   : 0 		   !important;
+  padding-right  : 0 		   !important;
+  padding-bottom : 5px 	       !important;
+  position       : relative    !important;
+
+  color          : $dgrey      !important;
+  font-family    : $os 	       !important;
+  font-size      : 12px 	   !important;
+  font-weight    : 600 	       !important;
+  text-align     : center      !important;
+  text-transform : uppercase   !important;
+
+  transition     : .5s 	       !important;
+
+  &:hover {
+    background: #fff      !important;
+    color: $blue          !important;
+  }
+  &:visited {
+    background: #fff      !important;
+    color: $blue          !important;;
+  }
+  &:visited:hover {
+    background: #fff      !important;
+    color: $blue          !important;
+  }
+  &:active {
+    background: #fff      !important;
+    color: $blue          !important;
+  }
+}

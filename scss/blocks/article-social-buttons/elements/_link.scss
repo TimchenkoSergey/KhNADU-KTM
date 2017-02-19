@@ -1,0 +1,26 @@
+&__link {
+  color: $blue;
+
+  text-decoration: none !important;
+  transition: 0.3s;
+
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+
+  &:visited {
+    color: $blue;
+    text-decoration: none;
+  }
+
+  &:visited:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: $blue;
+    text-decoration: none;
+  }
+}

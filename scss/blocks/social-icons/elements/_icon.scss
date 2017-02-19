@@ -1,0 +1,8 @@
+&__icon {
+  float: left;
+
+  @media (max-width: 550px) {
+    width: 46px;
+    text-align: center;
+  }
+}

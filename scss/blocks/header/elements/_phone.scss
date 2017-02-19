@@ -1,0 +1,12 @@
+&__phone {
+  margin-right: 20px;
+
+  color: $dgrey;
+  font-family: $os;
+  font-size: 16px;
+
+  @media (max-width: 380px) {
+    display: block;
+    margin-right: 0;
+  }
+}

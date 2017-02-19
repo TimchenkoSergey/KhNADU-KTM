@@ -1,0 +1,23 @@
+&__link {
+  color: $dgrey;
+  text-decoration: none;
+
+  transition: 0.3s;
+
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $dgrey;
+    text-decoration: none;
+  }
+  &:visited:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+  &:active {
+    color: $blue;
+    text-decoration: none;
+  }
+}

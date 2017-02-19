@@ -1,0 +1,9 @@
+&__text {
+  color: #3c3d41;
+  font-family: $os;
+  font-size: 14px;
+
+  @media (max-width: 991px) {
+    text-align: center;
+  }
+}

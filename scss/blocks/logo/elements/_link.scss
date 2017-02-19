@@ -1,0 +1,24 @@
+&__link {
+  color: $dgrey;
+  text-transform: none;
+  text-decoration: none;
+
+  transition: all .5s;
+  &:hover {
+    text-transform: none;
+    text-decoration: none;
+    color: $blue;
+  }
+  &:visited {
+    color: $blue;
+    text-decoration: none;
+  }
+  &:visited:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+  &:active {
+    color: $blue;
+    text-decoration: none;
+  }
+}

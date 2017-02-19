@@ -1,67 +1,12 @@
 .article-owl-carousel {
 	height: 320px;
 
-	&--mt {
-		margin-top: 0;
-	}
+	//modifiers
+	@import "modifiers/-mt";
 
-	&__item {
-		padding: 20px 0;
-		overflow: hidden;
-	}
-
-	&__link {
-		display: block;
-		position: relative;
-		overflow: hidden;
-
-		&:hover {
-			text-decoration: none;
-
-			& .article-owl-carousel__description {
-				opacity: 1;
-			}
-		}
-      &:visited {
-        color: $blue;
-        text-decoration: none;
-      }
-      &:visited:hover {
-        color: $blue;
-        text-decoration: none;
-      }
-      &:active {
-        color: $blue;
-        text-decoration: none;
-      }
-	}
-	
-	&__img {
-		height: 100%;
-
-		transition: 0.3s;
-		transform-style: flat !important;
-
-		&:hover {
-			transform: scale(1.1) !important;
-		}
-	}
-
-	&__description {
-		width: 100%;
-		bottom: 0;
-		left: 0;
-		padding: 15px;
-		padding-left: 20px;
-		position: absolute;
-		overflow: hidden;
-
-		background: rgba(0, 0, 0, 0.7);
-
-		color: #fff;
-		font-size: 14px;
-
-		opacity: 0;
-		transition: 0.3s;
-	}
+	//elements
+	@import "elements/_item";
+	@import "elements/_link";
+	@import "elements/_img";
+	@import "elements/_description";
 }

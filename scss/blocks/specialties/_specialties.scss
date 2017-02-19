@@ -6,138 +6,21 @@
 
 	text-align: center;
 
-	&--white {
-		padding-bottom: 40px;
-		padding-top: 30px;
+	//elements
+	@import "elements/_container";
+	@import "elements/_title";
+	@import "elements/_item";
+	@import "elements/_row";
+	@import "elements/_specialtie";
+	@import "elements/_header";
+	@import "elements/_link";
+	@import "elements/_text";
+	@import "elements/_information";
+	@import "elements/_icon";
 
-		background-color: #fff;
-	}
-	
-	&__container {
-		width: 100% !important;
-		padding-left: 0;
-		padding-right: 0;
-	}
+	//modifiers
+	@import "modifiers/-white";
+	@import "modifiers/_item--grey";
 
-	&__title {
-		padding-bottom: 30px;
 
-		color: $blue;
-		font-family: $exo;
-		font-size: 44px;
-		text-align: center;
-
-	    @media (max-width: 350px) {
-			font-size: 40px;
-		}
-	}
-
-	&__item {
-		max-width: 320px;
-		width: 100%;
-		margin-right: 30px;
-		padding: 35px;
-		float: left;
-
-		background: #fff;
-
-		&:last-child {
-			margin-right: 0;
-		}
-
-		@media (max-width: 1055px) {
-			width: 300px;
-		}
-
-		@media (max-width: 995px) {
-			width: 320px;
-			margin-right: 0;
-			margin-bottom: 20px;
-			float: none;
-		}
-
-		@media (max-width: 350px) {
-			width: 310px;
-		}
-	}
-
-	&__item--grey {
-		background: #f4f4f4;
-	}
-
-	&__row {
-		display: inline-block;
-		margin-top: 40px;
-
-		text-align-last: auto;
-	}
-
-	&__specialtie {
-		color: $blue;
-		font-family: $os;
-		font-size: 13px;
-		font-weight: bold;
-		text-align: left;
-		text-transform: uppercase;
-	}
-
-	&__header {
-		margin-bottom: 20px;
-
-		font-family: $os;
-		font-size: 20px;
-		font-weight: bold;
-		text-align: left;
-	}
-
-	&__link {
-		color: #303133;
-
-		transition: 0.3s;
-		&:hover {
-			color: $blue;
-			text-decoration: none;
-		}
-		&:visited {
-			color: $blue;
-			text-decoration: none;
-		}
-		&:visited:hover {
-			color: $blue;
-			text-decoration: none;
-		}
-		&:active {
-			color: $blue;
-			text-decoration: none;
-		}
-	}
-
-	&__text {
-		padding-bottom: 20px;
-		margin-bottom: 30px;
-
-		border-bottom: 1px solid #dedede;
-
-		color: #8D8D8D;
-		font-family: $os;
-		font-size: 15px;
-		text-align: left;
-	}
-
-	&__information {
-		margin-bottom: 2px;
-
-		color: #303133;
-		font-family: $os;
-		font-size: 13px;
-		font-weight: bold;
-		text-align: left;
-	}
-
-	&__icon {
-		padding-right: 10px;
-
-		color: $blue;
-		font-size: 14px;
-	}
 }

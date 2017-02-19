@@ -1,0 +1,19 @@
+&__text {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 60px;
+
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+
+  @media (max-width: 650px) {
+    padding-top: 40px;
+
+    font-size: 16px;
+  }
+
+  @media (max-width: 450px) {
+    padding-top: 20px;
+  }
+}

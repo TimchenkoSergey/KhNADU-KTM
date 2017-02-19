@@ -1,0 +1,16 @@
+&__col {
+  width: 35%;
+  margin-left: 15%;
+  float: left;
+
+  @media (max-width: 991px) {
+    width: 45%;
+    margin-left: 5%;
+  }
+
+  @media (max-width: 680px) {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

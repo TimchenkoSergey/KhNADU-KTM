@@ -3,6 +3,8 @@
 	margin: 0 auto;
 	position: relative;
 	z-index: 5;
+
+
 	&::before {
 		width: 25px;
 		height: 2px;
@@ -25,34 +27,11 @@
 		background: #fff;
 	}
 
-	&--dark::before {
-		width: 25px;
-		height: 2px;
-		top: 10px;
-		left: -28px;
-		position: absolute;
-		content: "";
+	//elements
+	@import "elements/_icon";
 
-		background: $dgrey;
-	}
+	//modifiers
+	@import "modifiers/-dark";
+	@import "modifiers/_icon--dark";
 
-	&--dark::after {
-		width: 25px;
-		height: 2px;
-		top: 10px;
-		right: -28px;
-		position: absolute;
-		content: "";
-
-		background: $dgrey;
-	}
-
-	&__icon {
-		color: #fff;
-		font-size: 25px;
-	}
-
-	&__icon--dark {
-		color: $dgrey;
-	}
 }

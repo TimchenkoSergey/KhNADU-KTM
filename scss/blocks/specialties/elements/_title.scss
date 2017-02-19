@@ -1,0 +1,12 @@
+&__title {
+  padding-bottom: 30px;
+
+  color: $blue;
+  font-family: $exo;
+  font-size: 44px;
+  text-align: center;
+
+  @media (max-width: 350px) {
+    font-size: 40px;
+  }
+}

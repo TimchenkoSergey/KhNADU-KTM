@@ -1,138 +1,28 @@
 .science {
     padding-top: 30px;
     padding-bottom: 50px;
-    &__publications {
-        padding-bottom: 50px;
-    }
-
-    &__link {
-        color: $dgrey;
-        text-decoration: none;
-
-        transition: 0.3s;
-
-        &:hover {
-          color: $blue;
-          text-decoration: none;
-        }
-        &:visited {
-            color: $dgrey;
-            text-decoration: none;
-        }
-        &:visited:hover {
-            color: $blue;
-            text-decoration: none;
-        }
-        &:active {
-            color: $blue;
-            text-decoration: none;
-        }
-    }
 
     @media (max-width: 1201px) {
         width: 100%;
     }
 
-    &__main-picture {
-        width: 100%;
-        height: auto;
-    }
+    //elements
+    @import "elements/_publications";
+    @import "elements/_link";
+    @import "elements/_main-picture";
+    @import "elements/_description";
+    @import "elements/_header";
+    @import "elements/_col-inform";
+    @import "elements/_text";
+    @import "elements/_fetures-list";
+    @import "elements/_list-item";
+    @import "elements/_icon";
 
-    &__description {
-        @media (max-width: 1201px) {
-          width: 100%;
-        }
-    }
+    //modifiers
+    @import "modifiers/_header--pt";
+    @import "modifiers/_row--flex";
+    @import "modifiers/_header--center";
+    @import "modifiers/_col--padding";
+    @import "modifiers/_header--padding";
 
-    &__header {
-        margin-top: 0;
-        margin-bottom: 20px;
-
-        color: $blue;
-        font-family: $exo;
-        font-size: 40px;
-        text-align: center;
-    }
-
-    &__header--pt {
-        padding-top: 40px;
-    }
-
-    &__col-inform {
-        padding-left: 20px;
-        padding-right: 50px;
-
-        @media (max-width: 991px) {
-          margin-bottom: 30px;
-        }
-    }
-
-    &__text {
-        margin: 20px 10px;
-        padding-top: 20px;
-
-        color: $dgrey;
-        font-family: $os;
-        font-size: 14px;
-        text-align: left;
-    }
-
-    &__fetures-list {
-        margin-bottom: 0;
-        padding-left: 10px;
-        list-style: none;
-    }
-
-    &__row--flex {
-        display: flex;
-        flex-direction: row-reverse;
-
-        @media (max-width: 991px) {
-          display: block;
-        }
-    }
-
-    &__list-item {
-        padding-top: 10px;
-        padding-bottom: 10px;
-
-        border-bottom: 1px solid #f4f4f4;
-
-        color: $dgrey;
-        font-family: $os;
-        font-size: 14px;
-
-        &:first-child {
-          border-top: 1px solid #f4f4f4;
-        }
-    }
-
-    &__icon {
-        margin-right: 5px;
-
-        color: $blue;
-        font-size: 10px;
-    }
-
-    &__header--center {
-        padding-top: 40px;
-        padding-bottom: 60px;
-
-        text-align: center;
-    }
-
-    &__col--padding {
-        display: flex;
-        align-items: center;
-        padding-right: 40px;
-        padding-left: 20px;
-
-        @media (max-width: 991px) {
-          margin-top: 30px;
-        }
-    }
-
-    &__header--padding {
-        padding-bottom: 40px;
-    }
 }

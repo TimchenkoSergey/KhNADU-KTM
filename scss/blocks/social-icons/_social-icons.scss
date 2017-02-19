@@ -1,98 +1,26 @@
 .social-icons {
 	float: right;
 
-	&__link {
-		color: $dgrey;
-		transition: 0.3s;
-
-		&:hover {
-			color: $blue;
-			text-decoration: none
-		}
-		&:visited {
-			color: $blue;
-			text-decoration: none;
-		}
-		&:visited:hover {
-			color: $blue;
-			text-decoration: none;
-		}
-		&:active {
-			color: $blue;
-			text-decoration: none;
-		}
-	}
-
 	@media (max-width: 550px) {
 		width: 138px;
-	    margin: 0 auto;
-	    padding-top: 10px;
+		margin: 0 auto;
+		padding-top: 10px;
 		float: none;
 	}
 
-	&--fln {
-		float: none;
-	}
+	//elements
+	@import "elements/_link";
+	@import "elements/_icon";
+	@import "elements/_picture";
+	@import "elements/_text";
 
-	&--fl {
-		float: none;
 
-		@media (max-width: 550px) {
-		    width: 100%;
-		    margin: 0 auto;
-		    padding-top: 0;
-		}
-	}
+	//modifiers
+	@import "modifiers/-fln";
+	@import "modifiers/-fl";
+	@import "modifiers/_icon--fl";
+	@import "modifiers/_icon--text-center";
+	@import "modifiers/_picture--width";
+	@import "modifiers/-pl";
 
-	&__icon {
-		float: left;
-
-		@media (max-width: 550px) {
-			width: 46px;
-			text-align: center;
-		}
-	}
-
-	&__picture {
-		margin-right: 30px;
-
-		font-size: 15px;
-	}
-
-	&__icon--fl {
-		margin-bottom: 25px;
-		float: none;
-
-		@media (max-width: 550px) {
-			width: 100%;
-			text-align: left;
-		}
-	}
-
-	&__icon--text-center {
-		text-align: center;
-	}
-
-	&__text {
-		vertical-align: super;
-	}
-
-	&__picture--width {
-		width: 45px;
-		margin-right: 0;
-
-		font-size: 25px;
-	}
-
-	&--pl {
-		padding-left: 35px;
-
-		@media (max-width: 550px) {
-			width: 100%;
-			margin-left: 0;
-			margin-right: 0;
-			padding-top: 0;
-			float: none;
-		}
-	}
 }

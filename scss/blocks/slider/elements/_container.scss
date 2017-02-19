@@ -1,0 +1,8 @@
+&__container {
+  padding-left: 185px;
+
+  @media (max-width: 1200px) {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

@@ -13,71 +13,10 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	&__fade {
-		width: 100%;
-		height: 180px;
-		top: 0;
-		left: 0;
-		position: absolute;
-		z-index: 2;
 
-		background: rgba(0, 0, 0, 0.7);
-	}
+	//elements
+	@import "elements/_fade";
+	@import "elements/_header";
+	@import "elements/_link";
 
-	&__header {
-		margin-top: 0;
-		position: relative;
-		z-index: 3;
-
-		color: #fff;
-		font-family: $exo;
-	    font-size: 44px;
-	    text-align: center;
-	}
-
-	&__link {
-		display: flex;
-		margin-top: 20px;
-		padding: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
-		position: relative;
-		z-index: 3;
-
-		border-radius: 20px;
-
-		background: $blue;
-
-		color: #fff;
-		font-size: 11px;
-		font-weight: bold;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-
-		transition: 0.3s;
-		&:hover {
-			color: #fff;
-			text-decoration: none;
-
-			opacity: 0.7;
-		}
-		&:visited {
-			color: #fff;
-			text-decoration: none;
-
-			opacity: 0.7;
-		}
-		&:visited:hover {
-			color: #fff;
-			text-decoration: none;
-
-			opacity: 0.7;
-		}
-		&:active {
-			color: #fff;
-			text-decoration: none;
-
-			opacity: 0.7;
-		}
-	}
 }

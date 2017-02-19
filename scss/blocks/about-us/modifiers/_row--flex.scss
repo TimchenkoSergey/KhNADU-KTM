@@ -1,0 +1,7 @@
+&__row--flex {
+  display: flex;
+
+  @media (max-width: 991px) {
+    display: block;
+  }
+}

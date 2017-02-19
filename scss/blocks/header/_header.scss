@@ -1,30 +1,8 @@
 .header {
-	&__phones {
-		float: left;
 
-		@media (max-width: 550px) {
-			float: none;
-			text-align: center;
-		}
-	}
-	
-	&__phone {
-		margin-right: 20px;
+	//elements
+	@import "elements/_phones";
+	@import "elements/_phone";
+	@import "elements/_top-section";
 
-		color: $dgrey;
-		font-family: $os;
-		font-size: 16px;
-
-		@media (max-width: 380px) {
-			display: block;
-			margin-right: 0;
-		}
-	}
-
-	&__top-section {
-		padding-top: 3px;
-		padding-bottom: 3px;
-
-		border-bottom: 1px solid #f4f4f4;
-	}
 }

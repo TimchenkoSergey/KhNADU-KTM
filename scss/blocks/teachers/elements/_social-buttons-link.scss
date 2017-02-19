@@ -1,0 +1,11 @@
+&__social-buttons-link {
+  padding: 0 20px 25px 0;
+
+  color: $blue;
+
+  transition: 0.3s;
+  &:hover {
+    color: $dblue;
+    text-decoration: none;
+  }
+}

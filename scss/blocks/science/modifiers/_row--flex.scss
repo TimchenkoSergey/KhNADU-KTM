@@ -1,0 +1,8 @@
+&__row--flex {
+  display: flex;
+  flex-direction: row-reverse;
+
+  @media (max-width: 991px) {
+    display: block;
+  }
+}

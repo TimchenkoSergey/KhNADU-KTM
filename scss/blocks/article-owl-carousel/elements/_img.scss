@@ -1,0 +1,10 @@
+&__img {
+  height: 100%;
+
+  transition: 0.3s;
+  transform-style: flat !important;
+
+  &:hover {
+    transform: scale(1.1) !important;
+  }
+}

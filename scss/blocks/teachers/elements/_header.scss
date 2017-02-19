@@ -1,0 +1,13 @@
+&__header {
+  margin: 0;
+  padding-bottom: 30px;
+
+  color: $blue;
+  font-family: $exo;
+  font-size: $hz;
+  font-weight: 600;
+
+  @media (max-width: 991px) {
+    text-align: center;
+  }
+}

@@ -1,0 +1,23 @@
+&__hamburger {
+  display: none;
+  width: 95px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  float: right;
+
+  border-radius: 5px;
+
+  color: $blue;
+  font-size: 40px;
+
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    color: $dblue;
+  }
+
+  @media (max-width: 767px) {
+    display: block;
+  }
+}

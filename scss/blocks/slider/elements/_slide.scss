@@ -1,0 +1,14 @@
+&__slide {
+  height: 600px;
+  padding-top: 150px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (max-width: 767px) {
+    padding-top: 70px;
+    height: 500px;
+  }
+}
