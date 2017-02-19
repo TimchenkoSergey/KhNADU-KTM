@@ -16,6 +16,11 @@ gulp.task("css", function() {
 	gulp.src([
 			"libs/normalize/normalize.css",
 			"libs/bootstrap/css/bootstrap.min.css",
+			"libs/animate/animate.css",
+			"libs/fa/font-awesome.min.css",
+			"libs/owl/owl.carousel.min.css",
+			"libs/owl/owl.theme.default.min.css",
+			"libs/swipe/swipebox.min.css",
 			"scss/main.scss"
 		])
 		.pipe(sass())
@@ -26,7 +31,13 @@ gulp.task("css", function() {
 });
 
 gulp.task("js", function () {
-	gulp.src(["js/*.js"])
+	gulp.src([
+		"libs/jquery/jquery.min.js",
+		"libs/bootstrap/js/bootstrap.min.js",
+		"libs/owl/owl.carousel.min.js",
+		"libs/swipe/jquery.swipebox.min.js",
+		"js/*.js"
+		])
 		.pipe(sourceMaps.init())
 		.pipe(babel({
 			presets: ["es2015"]
