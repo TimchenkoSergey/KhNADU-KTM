@@ -3,6 +3,10 @@
   padding: 40px 0 100px 0;
   position: relative;
 
+  @media (max-width: 1201px) {
+    width: 100%;
+  }
+
   //elements
   @import "elements/_title";
   @import "elements/_logo";
@@ -16,11 +20,6 @@
   @import "elements/_info";
   @import "elements/_quote";
   @import "elements/_owl-carousel";
-
-  @media (max-width: 1201px) {
-    width: 100%;
-  }
-
 }
 
 .owl-theme .owl-dots .owl-dot.active span,

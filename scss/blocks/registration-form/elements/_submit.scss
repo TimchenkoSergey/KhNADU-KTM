@@ -1,0 +1,28 @@
+&__submit {
+	max-width: 230px;
+	width: 100%;
+	margin-top: 6px;
+    padding: 9px;
+    outline: 0;
+    
+	background: #3f9ae1;
+
+    border: none;
+    border-radius: 3px;
+    
+    color: #fff;
+    text-transform: uppercase;
+
+    transition: .3s;
+    box-shadow: none;
+    opacity: .8;
+
+    &:hover {
+    	opacity: 1;
+    }
+
+    @media (max-width: 800px) {
+        display: block;
+        max-width: 100%;
+    }
+}

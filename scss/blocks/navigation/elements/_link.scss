@@ -12,24 +12,15 @@
   text-transform: uppercase;
 
   transition: 0.5s;
-  &:link {
+
+  &:visited {
     color: $dgrey;
+    text-decoration: none
   }
+
   &:hover {
     color: $blue;
-    text-decoration: none;
-  }
-  &:active {
-    color: $blue;
-    text-decoration: none;
-  }
-  &:visited {
-    color: $blue;
-    text-decoration: none;
-  }
-  &:visited:hover {
-    color: $blue;
-    text-decoration: none;
+    text-decoration: none
   }
 
   @media (max-width: 991px) {
@@ -40,11 +31,14 @@
   @media (max-width: 767px) {
     padding-left: 25px;
 
-
-    color: #fff;
     text-align: left;
+    
+    &:visited {
+      color: #fff;
+    }
 
     &:hover {
+      color: $blue;
       background: #37474F;
     }
   }

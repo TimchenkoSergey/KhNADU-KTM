@@ -1,0 +1,22 @@
+&__input {
+	max-width: 230px;
+	width: 100%;
+	margin-bottom: 10px;
+    padding: 8px;
+    outline: 0;
+    
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    
+    transition: .3s;
+    box-shadow: none;
+
+    &:hover {
+		border: 1px solid #757575;
+    }
+
+    @media (max-width: 800px) {
+        display: block;
+        max-width: 100%;
+    }
+}

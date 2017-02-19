@@ -1,0 +1,12 @@
+&__form {
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	@media (max-width: 800px) {
+		display: inline-block;
+		max-width: 500px;
+		width: 100%;
+		padding-left: 15px;
+        padding-right: 15px;
+    }
+}

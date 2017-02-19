@@ -1,0 +1,25 @@
+&__more-button {
+    padding: 10px 20px;
+    outline: transparent;
+	
+	border: none;
+    border-radius: 20px;
+
+    background: #3f9ae1;
+
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    transition: .3s;
+    box-shadow: none;
+
+    &:hover {
+    	color: #fff;
+	    text-decoration: none;
+
+	    opacity: .7;
+    }
+}

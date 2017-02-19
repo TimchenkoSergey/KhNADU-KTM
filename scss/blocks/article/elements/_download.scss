@@ -1,0 +1,13 @@
+&__download {
+	display: block;
+	margin-top: 20px;
+
+	color: $dgrey;
+
+	transition: 0.3s;
+
+	&:hover {
+		color: $blue;
+		text-decoration: none;
+	}
+}

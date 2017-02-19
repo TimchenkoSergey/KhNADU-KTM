@@ -1,0 +1,10 @@
+.registration-form {
+
+	@media (max-width: 800px) {
+        text-align: center;
+    }
+
+	@import "elements/_form.scss";
+	@import "elements/_input.scss";
+	@import "elements/_submit.scss";
+}

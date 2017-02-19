@@ -31,3 +31,20 @@
         });
     });
 })();
+
+function getDataForCustomSelects(step) {
+    var data = "";
+    var selects = $(step.find(".selected_list input"));
+
+    $.each(selects, function (i, value) {
+        var input = $($(value).find("input"));
+        var name  = input.attr("name");
+        var val   = input.val();
+
+        if (name) {
+            data += "&" + name + "=" + val;
+        }
+    });
+
+    return data;
+}

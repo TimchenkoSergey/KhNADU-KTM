@@ -2,20 +2,14 @@
   color: $dgrey;
 
   transition: all .5s;
-  &:hover {
-    color: $blue;
-    text-decoration: none;
-  }
+  
   &:visited {
-    color: $blue;
+    color: $dgrey;
     text-decoration: none;
   }
-  &:visited:hover {
-    color: $blue;
-    text-decoration: none;
-  }
-  &:active {
-    color: $blue;
+
+  &:hover {
+    color: $blue !important;
     text-decoration: none;
   }
 }
