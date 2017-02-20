@@ -1,0 +1,27 @@
+&--mb {
+
+  @media(max-width: 3200px) {
+    margin-bottom: 350px;
+  }
+
+  @media(max-width: 2560px) {
+    margin-bottom: 175px;
+  }
+
+  @media(max-width: 2048px) {
+    margin-bottom: 100px;
+  }
+
+  @media(max-width: 1600px) {
+    margin-bottom: 75px;
+  }
+
+  @media(max-width: 1400px) {
+    margin-bottom: 50px;
+ }
+
+  @media(max-width: 1080px) {
+    margin-bottom: 25px;
+  }
+
+}

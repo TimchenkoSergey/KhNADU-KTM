@@ -1,0 +1,10 @@
+&--pd {
+
+  @media (min-width: 1080px) {
+    padding-bottom: 0;
+  }
+  @media (max-width: 1024px) {
+    padding-bottom: 50px;
+  }
+
+}
