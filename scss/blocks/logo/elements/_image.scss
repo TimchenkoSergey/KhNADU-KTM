@@ -1,7 +1,9 @@
 &__image {
-  padding-top: 10px;
-  position: relative;
-
+  max-width: 210px;
+  width: 100%;
+  padding-top: 20px;
+  position: relative;    
+    
   color: $dgrey;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
